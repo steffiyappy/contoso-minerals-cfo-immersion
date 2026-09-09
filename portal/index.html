@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'none'; img-src 'self' data: blob:; font-src 'none'; object-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Close Control | Contoso Minerals Group</title>
+  <script>
+    (() => {
+      const param = new URLSearchParams(window.location.search).get("scoutTheme");
+      const theme =
+        param || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      document.documentElement.setAttribute("data-theme", theme);
+    })();
+  </script>
+  <style>
+    :root {
+      color-scheme: light;
+      --cp-bg: #f7f4ef;
+      --cp-bg-elevated: #fcfbf8;
+      --cp-surface: #ffffff;
+      --cp-surface-soft: #f5f5f5;
+      --cp-border: #dedede;
+      --cp-border-strong: #919191;
+      --cp-text: #242424;
+      --cp-text-muted: #5c5c5c;
+      --cp-text-soft: #6f6f6f;
+      --cp-accent: #b11f4b;
+      --cp-accent-hover: #9a1a41;
+      --cp-accent-soft: rgba(177, 31, 75, 0.08);
+      --cp-accent-fg: #ffffff;
+      --cp-success: #16a34a;
+      --cp-danger: #dc2626;
+      --cp-warning: #f59e0b;
+      --cp-link: #0078d4;
+      --cp-shadow: 0 18px 48px rgba(0, 0, 0, 0.12);
+      --cp-overlay: rgba(255, 255, 255, 0.8);
+      --cp-panel: rgba(255, 255, 255, 0.86);
+      --cp-panel-strong: rgba(255, 255, 255, 0.96);
+      --cp-sheen: rgba(255, 255, 255, 0.55);
+      --cp-highlight: rgba(177, 31, 75, 0.12);
+    }
+    html[data-theme="dark"] {
+      color-scheme: dark;
+      --cp-bg: #3d3b3a;
+      --cp-bg-elevated: #343231;
+      --cp-surface: #292929;
+      --cp-surface-soft: #2e2e2e;
+      --cp-border: #474747;
+      --cp-border-strong: #5f5f5f;
+      --cp-text: #dedede;
+      --cp-text-muted: #919191;
+      --cp-text-soft: #b0b0b0;
+      --cp-accent: #fd8ea1;
+      --cp-accent-hover: #fb7b91;
+      --cp-accent-soft: rgba(253, 142, 161, 0.14);
+      --cp-accent-fg: #1a1a1a;
+      --cp-success: #4ade80;
+      --cp-danger: #f87171;
+      --cp-warning: #fbbf24;
+      --cp-link: #4da6ff;
+      --cp-shadow: 0 18px 48px rgba(0, 0, 0, 0.32);
+      --cp-overlay: rgba(41, 41, 41, 0.88);
+      --cp-panel: rgba(41, 41, 41, 0.72);
+      --cp-panel-strong: rgba(41, 41, 41, 0.96);
+      --cp-sheen: rgba(255, 255, 255, 0.04);
+      --cp-highlight: rgba(253, 142, 161, 0.12);
+    }
+  </style>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:,">
+  <script src="model.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#workspace" data-i18n="skip">Langsung ke ruang kerja</a>
+  <header class="masthead">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">CC</span><div><strong>CONTOSO MINERALS GROUP</strong><span data-i18n="brandSub">Ruang kerja pengendalian keuangan</span></div></div>
+    <div class="header-tools">
+      <span class="badge" data-i18n="demo">Demo fiktif</span>
+      <div class="language" role="group" aria-label="Bahasa / Language">
+        <button type="button" id="lang-id" lang="id" aria-label="Bahasa Indonesia" aria-pressed="true">Indonesia</button>
+        <button type="button" id="lang-en" lang="en" aria-label="English" aria-pressed="false">English</button>
+      </div>
+    </div>
+  </header>
+  <main id="workspace" tabindex="-1">
+    <section class="page-heading">
+      <div><p class="eyebrow" data-i18n="eyebrow">PENUTUPAN BULANAN / BROWSER USE</p><h1>Close Control</h1><p class="lead" data-i18n="lead">Dari bukti ke draf yang siap ditinjau. Keputusan tetap di tangan manusia.</p></div>
+      <div class="dossier-state"><span class="meta-label" data-i18n="dossierStatus">Status berkas kerja</span><strong id="draft-status"></strong><span id="save-state" role="status" aria-live="polite"></span></div>
+    </section>
+    <div class="notice local-notice"><span aria-hidden="true" class="notice-icon">i</span><p data-i18n="localNotice">Hanya di peramban ini. Draf disimpan pada perangkat ini, bukan di server bersama. File bukti tidak pernah diunggah. Tidak ada pengiriman, persetujuan, atau pembukuan jurnal.</p></div>
+    <div id="storage-alert" class="notice danger" role="alert" hidden></div>
+    <div id="message" class="notice" role="status" aria-live="polite" hidden></div>
+    <section class="metric-strip" aria-label="Ringkasan / Summary">
+      <div><span data-i18n="period">Periode</span><strong id="metric-period"></strong></div>
+      <div><span data-i18n="exceptionRows">Baris pengecualian</span><strong id="metric-exceptions">0</strong></div>
+      <div><span data-i18n="journalGroups">Kelompok jurnal / mata uang</span><strong id="metric-journals">0</strong></div>
+      <div><span data-i18n="evidenceFiles">File bukti</span><strong id="metric-evidence">0</strong></div>
+    </section>
+    <div class="workflow-tabs" role="tablist" aria-label="Tahapan / Workflow">
+      <button type="button" role="tab" id="tab-overview" aria-controls="panel-overview" aria-selected="true"><span aria-hidden="true">01</span><span data-i18n="overview">Ikhtisar penutupan</span></button>
+      <button type="button" role="tab" id="tab-exceptions" aria-controls="panel-exceptions" aria-selected="false" tabindex="-1"><span aria-hidden="true">02</span><span data-i18n="exceptions">Pengecualian</span></button>
+      <button type="button" role="tab" id="tab-journals" aria-controls="panel-journals" aria-selected="false" tabindex="-1"><span aria-hidden="true">03</span><span data-i18n="journals">Usulan jurnal</span></button>
+      <button type="button" role="tab" id="tab-review" aria-controls="panel-review" aria-selected="false" tabindex="-1"><span aria-hidden="true">04</span><span data-i18n="review">Tinjau / ekspor</span></button>
+    </div>
+    <form id="close-form" novalidate>
+      <section id="panel-overview" role="tabpanel" aria-labelledby="tab-overview" tabindex="0">
+        <div class="section-heading"><div><h2 data-i18n="overviewHeading">Mulai dengan konteks dan sumber</h2><p data-i18n="overviewHint">Isi hasil analisis Anda sendiri. Tidak ada angka jawaban bawaan. Semua kolom wajib kecuali ditandai opsional.</p></div><span class="step-chip">01 / 04</span></div>
+        <div class="overview-grid">
+          <section class="card"><h3 data-i18n="dossier">Berkas kerja penutupan</h3><div class="field-grid" id="dossier-fields"></div></section>
+          <aside class="card guidance"><p class="eyebrow" data-i18n="workingRules">ATURAN KERJA</p><h3 data-i18n="keepTraceable">Pastikan setiap kesimpulan dapat ditelusuri</h3><ol><li data-i18n="rule1">Lampirkan sumber, lalu catat file, lembar, dan ID baris.</li><li data-i18n="rule2">Pisahkan mata uang. Tautkan kandidat terkait dengan ID kelompok risiko.</li><li data-i18n="rule3">Rekonsiliasi setiap kelompok jurnal sampai dua desimal.</li><li data-i18n="rule4">Periksa empat poin kendali sebelum menyimpan draf siap ditinjau.</li></ol><p class="small" data-i18n="fictional">Gunakan hanya data sintetis dan persona fiktif. Jangan masukkan nama atau informasi pribadi nyata.</p></aside>
+        </div>
+        <section class="card"><h3 data-i18n="kpisHeading">Indikator hasil rekonsiliasi</h3><p data-i18n="kpisHint">Masukkan jumlah baris unik dari sumber. Pengecualian dapat tumpang tindih. Eksposur adalah potensi risiko, bukan penghematan atau kerugian yang telah dipastikan.</p><div class="field-grid four" id="kpi-fields"></div></section>
+        <section class="card"><h3 data-i18n="evidenceHeading">Bukti lokal dan sidik SHA-256</h3><p id="evidence-notice" data-i18n="evidenceNotice">Konten file hanya dibaca di memori untuk menghitung SHA-256. Hanya nama, ukuran, waktu modifikasi, dan hash yang disimpan. Maksimal 50 file, 20 MiB per file. Nama file harus unik.</p><label for="evidence-files" data-i18n="attachEvidence">Lampirkan file bukti</label><div class="file-picker"><span data-i18n="chooseEvidence">Pilih satu atau beberapa file bukti</span><input id="evidence-files" name="evidence-files" type="file" multiple aria-describedby="evidence-notice"></div><div id="evidence-list"></div><p class="small" data-i18n="hashNotice">Hash membantu membandingkan file, bukan menjamin kebenaran isinya. Ekspor tidak menyertakan file asli. Hash yang diimpor belum diverifikasi ulang terhadap file asli.</p></section>
+      </section>
+      <section id="panel-exceptions" role="tabpanel" aria-labelledby="tab-exceptions" tabindex="0" hidden>
+        <div class="section-heading"><div><h2 data-i18n="exceptionsHeading">Pengecualian yang dapat ditindaklanjuti</h2><p data-i18n="exceptionsHint">Satu baris per temuan. Kandidat bukan kesimpulan final. Tambahkan hanya baris yang diperlukan, lalu lengkapi sumber dan tindak lanjut.</p></div><span class="step-chip">02 / 04</span></div>
+        <div class="notice"><p data-i18n="overlapNotice">Jangan jumlahkan nilai antarbaris atau antarkategori. Satu kejadian dapat muncul beberapa kali. ID kelompok risiko opsional menautkan kandidat terkait; tampilan hanya menghitung kelompok unik per mata uang, tanpa menjumlahkan nilai atau mengklaim penghematan.</p></div>
+        <div id="exception-summary"></div>
+        <div id="exception-rows"></div>
+        <button type="button" id="add-exception" class="secondary" data-i18n="addException">Tambah pengecualian</button>
+      </section>
+      <section id="panel-journals" role="tabpanel" aria-labelledby="tab-journals" tabindex="0" hidden>
+        <div class="section-heading"><div><h2 data-i18n="journalsHeading">Usulan penyesuaian, bukan instruksi pembukuan</h2><p data-i18n="journalsHint">Gunakan ID jurnal yang sama untuk baris dalam satu jurnal. ID baris harus unik. Setiap ID jurnal dan mata uang harus seimbang hingga dua desimal.</p></div><span class="step-chip">03 / 04</span></div>
+        <div class="notice"><p data-i18n="journalNotice">Isi salah satu sisi saja: debit atau kredit. Sisi kosong dihitung sebagai nol. Tidak ada fungsi pembukuan. Usulan hanya untuk ditinjau manusia.</p></div>
+        <div id="journal-balance"></div>
+        <div id="journal-rows"></div>
+        <button type="button" id="add-journal-line" class="secondary" data-i18n="addJournal">Tambah baris jurnal</button>
+        <div class="card" id="no-journals-field"></div>
+      </section>
+      <section id="panel-review" role="tabpanel" aria-labelledby="tab-review" tabindex="0" hidden>
+        <div class="section-heading"><div><h2 data-i18n="reviewHeading">Tinjau satu berkas kerja yang utuh</h2><p data-i18n="reviewHint">Pemeriksaan otomatis menguji kelengkapan dan aritmetika, bukan kebenaran akuntansi. Konfirmasi manusia tetap diperlukan.</p></div><span class="step-chip">04 / 04</span></div>
+        <section class="card" id="review-dossier"></section>
+        <section class="card"><h3 data-i18n="reviewEvidence">Daftar bukti dan referensi</h3><div id="review-evidence"></div></section>
+        <section class="card"><h3 data-i18n="reviewExceptions">Daftar pengecualian</h3><div id="review-exceptions"></div></section>
+        <section class="card"><h3 data-i18n="reviewJournals">Usulan jurnal per mata uang</h3><div id="review-journals"></div></section>
+        <section class="card review-controls"><h3 data-i18n="checkpoints">Empat poin kendali</h3><p data-i18n="checkpointsHint">Centang setelah Anda memeriksa sumber. Perubahan data membatalkan semua konfirmasi dan mengembalikan status menjadi draf.</p><div id="checkpoint-fields"></div><div class="readiness" id="readiness-summary" aria-live="polite"></div><button type="button" id="save-review-ready" class="primary" disabled data-i18n="saveReady">Simpan draf siap ditinjau</button><p class="small" data-i18n="readyNotice">Status akhir hanya “Siap ditinjau manusia”. Bukan disetujui, dikirim, atau dibukukan.</p></section>
+        <section class="card review-controls"><h3 data-i18n="portability">Pindahkan draf dengan kendali Anda</h3><p data-i18n="exportHint">Ekspor JSON menyertakan payload, versi skema, dan riwayat lokal. Impor file yang sama di peramban lain. Ekspor dapat berisi draf belum lengkap dan selalu diperiksa ulang.</p><div class="button-row"><button type="button" id="export-json" class="secondary" data-i18n="exportJson">Unduh JSON</button><button type="button" id="print-review" class="secondary" data-i18n="printReview">Cetak tinjauan</button></div><div class="import-area"><label for="import-json" data-i18n="importJson">Pilih file draf JSON</label><div class="file-picker"><span data-i18n="chooseJson">Pilih satu file JSON untuk diperiksa</span><input id="import-json" type="file" accept=".json,application/json"></div><p id="import-help" class="small" data-i18n="importHint">Maksimal 1 MiB. File diperiksa sebelum diterapkan. Penerapan mengganti satu draf aktif. Ekspor draf saat ini terlebih dahulu jika perlu.</p><div id="import-preview" hidden></div><button type="button" id="apply-import" class="secondary" disabled data-i18n="applyImport">Terapkan draf impor</button></div></section>
+        <section class="card"><h3 data-i18n="auditHeading">Riwayat lokal</h3><p class="small" data-i18n="auditNotice">Maksimal 1.000 kejadian terbaru. Riwayat ini dapat diubah bersama file JSON. Ini bukan log audit independen atau tanda persetujuan.</p><div id="audit-trail"></div></section>
+      </section>
+    </form>
+    <section id="validation-panel" class="card validation-panel" hidden aria-labelledby="validation-title"><h2 id="validation-title" data-i18n="validationTitle">Hal yang perlu diperbaiki</h2><p data-i18n="validationHint">Pilih pesan untuk membuka kolom terkait. Draf belum lengkap tetap dapat disimpan, tetapi tidak dapat ditandai siap ditinjau.</p><ul id="validation-errors"></ul></section>
+    <div class="action-bar"><span class="small" data-i18n="autosaveNotice">Perubahan disimpan otomatis di peramban ini. Ekspor untuk cadangan yang dapat dipindahkan.</span><div class="button-row"><button type="button" id="validate-draft" class="secondary" data-i18n="validateDraft">Periksa draf</button><button type="button" id="save-draft" class="primary" data-i18n="saveDraft">Simpan draf</button><button type="button" id="next-step" class="secondary" data-i18n="nextStep">Langkah berikutnya</button></div></div>
+  </main>
+  <footer><strong>Close Control</strong><span data-i18n="footer">Contoso Minerals Group adalah organisasi fiktif. Demo lokal tanpa integrasi sistem keuangan.</span></footer>
+  <noscript><p>Aktifkan JavaScript untuk menggunakan demo lokal ini. / Enable JavaScript to use this local demo.</p></noscript>
+</body>
+</html>

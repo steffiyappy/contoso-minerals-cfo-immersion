@@ -1,0 +1,30 @@
+BILINGUAL Q&A / TANYA JAWAB DWIBAHASA
+Execution questions below are English. Indonesian is a matched reference.
+Pertanyaan eksekusi di bawah dalam bahasa Inggris. Bahasa Indonesia adalah referensi yang sepadan.
+These are expected answers for the supplied snapshot, not results from an executed tenant Data Agent.
+Ini jawaban harapan untuk snapshot yang disediakan, bukan hasil Data Agent tenant yang dijalankan.
+
+1 EN ASK: What is the ledger scope, source date, occurrence coverage and control gap? Report missing USD, unknown accounts, missing vendors and repeated imports.
+  ID ARTI: Apa cakupan ledger, tanggal sumber, cakupan kejadian dan selisih kontrol? Laporkan USD kosong, akun tidak dikenal, pemasok kosong dan impor ulang.
+  EN EXPECT: Expense/capex only, June-August 2026; context as of 2026-09-09; close 2026-08-31. 3,012 occurrences, 3 null USD, 5 unmapped accounts, 6 missing vendor IDs and 12 replays. Known all-occurrence USD 26,805,066.34; control USD 26,741,850.07; aggregate gap +63,216.27. Not a full GL balance or signoff. Use Q1, Q2, Q10.
+  ID HARAPAN: Hanya beban/capex Juni-Agustus 2026; konteks 2026-09-09; tutup 2026-08-31. 3.012 kejadian, 3 USD null, 5 akun tidak terpetakan, 6 ID pemasok kosong dan 12 impor ulang. USD diketahui 26.805.066,34; kontrol 26.741.850,07; selisih agregat +63.216,27. Bukan saldo buku besar lengkap atau persetujuan. Gunakan Q1, Q2, Q10.
+
+2 EN ASK: How many exact compound-key duplicate invoice groups and candidate rows exist, and what is the open candidate exposure in USD?
+  ID ARTI: Berapa kelompok duplikat kunci gabungan persis dan baris kandidat, serta eksposur kandidat terbuka dalam USD?
+  EN EXPECT: 12 groups, 24 rows, USD 23,849.46 open candidate exposure using VendorIDKey+InvoiceNoKey+CurrencyKey+DocumentType. This is not realized savings or a fraud conclusion. Use Q4.
+  ID HARAPAN: 12 kelompok, 24 baris, USD 23.849,46 eksposur kandidat terbuka memakai kunci empat kolom. Ini bukan penghematan terealisasi atau kesimpulan fraud. Gunakan Q4.
+
+3 EN ASK: Count bank/cash issues by MatchStatus and distinguish close-cutoff timing from all-date matching.
+  ID ARTI: Hitung isu bank/kas menurut MatchStatus dan bedakan selisih waktu batas tutup dari pencocokan semua tanggal.
+  EN EXPECT: Four TimingDifference references, eight UnmatchedCash and seven UnmatchedBank. All 535 bank and 544 cash rows remain after validated 12 batch allocations. Four September settlements must not be moved into August silently. Use Q6; request grouped counts before a list.
+  ID HARAPAN: Empat referensi TimingDifference, delapan UnmatchedCash dan tujuh UnmatchedBank. Semua 535 baris bank serta 544 kas dipertahankan sesudah 12 alokasi batch tervalidasi. Empat pelunasan September tidak boleh dipindah diam-diam ke Agustus. Gunakan Q6; minta agregat sebelum daftar.
+
+4 EN ASK: Summarize budget versus controller actual and August production without calling recovered ounces sales or cash.
+  ID ARTI: Ringkas anggaran versus aktual controller dan produksi Agustus tanpa menyebut ons hasil pemulihan sebagai penjualan atau kas.
+  EN EXPECT: Total BudgetUSD 26,827,033.83; ControlUSD 26,741,850.07; VarianceUSD -85,183.76. August ore: S01 61,381 versus 68,200 planned; S02 47,263 versus 49,600. Recovered ounces about 2,446.716 and 1,628.220. No S03 production or supported cash runway. Use Q7, Q8.
+  ID HARAPAN: Total BudgetUSD 26.827.033,83; ControlUSD 26.741.850,07; VarianceUSD -85.183,76. Bijih Agustus: S01 61.381 versus rencana 68.200; S02 47.263 versus 49.600. Ons hasil pemulihan sekitar 2.446,716 dan 1.628,220. Tidak ada produksi S03 atau proyeksi ketahanan kas yang didukung. Gunakan Q7, Q8.
+
+5 EN ASK: Which staged ledger exceptions remain, and which evidence IDs support review rather than approval?
+  ID ARTI: Pengecualian ledger staging apa yang masih ada, dan ID bukti mana mendukung tinjauan, bukan persetujuan?
+  EN EXPECT: All 26 staged exceptions remain. Use Q3 for counts and Q9 for the full 26-row detail in SQL. Data Agent chat can cap results at 25 rows/25 columns, so chat output is not a complete export. SourceRowID and DocumentRef trace to raw files; ExceptionID/RecordID/EvidenceRef trace review issues.
+  ID HARAPAN: Semua 26 pengecualian staging tetap ada. Gunakan Q3 untuk jumlah dan Q9 di SQL untuk detail 26 baris penuh. Chat Data Agent dapat dibatasi 25 baris/25 kolom, sehingga bukan ekspor lengkap. SourceRowID dan DocumentRef menelusuri file mentah; ExceptionID/RecordID/EvidenceRef menelusuri isu tinjauan.
