@@ -3,7 +3,7 @@
 const labels = {
   id: {
     skip: "Langsung ke panduan", theme: "Tema", lock: "Kunci",
-    eyebrow: "DEMO CFO / DATA SINTETIS",
+    eyebrow: "OPERASI / KEUANGAN / MANAJEMEN",
     gateTitle: "Dari data yang berantakan ke keputusan yang bisa dipertanggungjawabkan.",
     gateLead: "Tiga lokasi. Tiga format ekspor. Satu penutupan bulanan. Gunakan Copilot untuk menelusuri angka, menguji narasi, dan menyiapkan tindakan.",
     journey1: "Pahami konteks", journey2: "Telusuri angka", journey3: "Siapkan tindakan",
@@ -19,7 +19,7 @@ const labels = {
     setup: "Sebelum mulai", notes: "Perhatikan", success: "Hasil yang perlu terlihat",
     copy: "Salin prompt", copied: "Prompt disalin.", copyError: "Browser tidak mengizinkan salin otomatis. Pilih teks prompt lalu salin secara manual.",
     inputs: "Gunakan", outputs: "Hasil baru", sourceFiles: "File pada langkah ini",
-    files: "File contoh", fabric: "Opsional · Bangun Fabric", previous: "Sebelumnya", next: "Berikutnya",
+    files: "File contoh", fabric: "Opsional · Bangun Fabric", takeHome: "Bahan lanjutan · di luar sesi", previous: "Sebelumnya", next: "Berikutnya",
     filesTitle: "Unduh satu edisi, jalankan satu cerita.",
     filesLead: "Dua paket memuat angka dan ID yang sama. Panduan serta narasi disesuaikan dengan bahasa masing-masing; nama kolom teknis dipertahankan.",
     downloadID: "Unduh file Indonesia", downloadEN: "Download English files",
@@ -38,18 +38,27 @@ const labels = {
     ],
     fabricNote: "Cowork memakai snapshot file pada jalur ini, bukan koneksi langsung yang telah diuji. Notebook belum dijalankan pada tenant Fabric Anda. Data agent memiliki persyaratan kapasitas dan akses tersendiri.",
     references: "Sumber Microsoft", searchTitle: "Hasil pencarian", noResults: "Tidak ada prompt yang cocok. Coba kata seperti rekonsiliasi, VBA, atau Council.",
-    clearSearch: "Hapus pencarian", core: "60 menit · alur inti", stats: ["lokasi fiktif", "baris ledger", "baris invoice AP", "prompt per bahasa"],
-    overview: "Alur utama: Council → Excel → Critique → Cowork → Browser Use. VBA, skill, dan Fabric tersedia sebagai pendalaman.",
+    clearSearch: "Hapus pencarian", core: "90 menit · 5 demo", stats: ["menit termasuk tanya jawab", "demo utama", "prompt utama per bahasa", "bidang: operasi, keuangan, manajemen"],
+    overview: "Lima demo, enam prompt. Operasi, keuangan, dan manajemen masuk alur utama. VBA, skill, dan Fabric disimpan untuk dipelajari setelah sesi.",
     scenario: "AGUSTUS 2026 / PENUTUPAN BULANAN",
     permissions: "Gunakan akun kerja dengan akses ke Researcher, Cowork, dan Copilot di Excel. Browser Use memerlukan Cowork web di Edge, profil kerja yang sama, serta izin admin. Pilih Model Council untuk perbandingan model dan Auto untuk Critique. Periksa ketersediaan sebelum sesi.",
     noSend: "Seluruh perusahaan, orang, angka, dan komunikasi pada file contoh adalah fiktif. Alur berhenti pada draf untuk ditinjau manusia.",
     fabricTime: "45-60 menit + data agent opsional",
-    filesNote: "File 06 adalah draf untuk dikritisi, bukan kunci jawaban. File 09 merupakan referensi yang dibuka setelah membangun ulang rumus."
+    filesNote: "Gunakan hanya file 01-07 selama sesi. File 06 adalah draf untuk dikritisi. Makro, skill, dan file 09 disimpan sebagai bahan lanjutan.",
+    agenda: "Alokasi 90 menit", clock: "Menit", activity: "Demo", prompts: "Prompt",
+    welcome: "Pembukaan dan konteks", qa: "Tanya jawab", total: "Total",
+    takeHomeTitle: "Simpan untuk setelah sesi.",
+    takeHomeLead: "Tidak perlu menambahkan latihan lain ke 90 menit. File VBA, rumus, dan skill tetap tersedia; panduan Fabric ada di bawah.",
+    referenceTitle: "Buka pustaka lengkap untuk latihan mandiri",
+    referenceNote: "Pustaka ini mempertahankan alur rinci sebelumnya dan nama file hasilnya. Jalankan dependensi di dalam alur tersebut; jangan menganggap Finance_Review dari sesi ringkas menggantikan seluruh hasil alur rinci.",
+    finish: "Lima demo selesai. Sisihkan lima menit terakhir untuk tanya jawab. Bahan lanjutan tidak perlu dibuka dalam sesi ini.",
+    searchScope: "Pencarian ini hanya mencakup enam prompt utama. Buka Bahan lanjutan untuk pustaka lengkap.",
+    scheduleNote: "05-15 berarti menit ke-5 sampai ke-15, bukan jam. Durasi adalah alokasi demo, bukan jaminan waktu proses."
   },
   en: {
     skip: "Skip to guide", theme: "Theme", lock: "Lock",
-    eyebrow: "CFO DEMO / SYNTHETIC DATA",
-    gateTitle: "From fragmented data to defensible CFO decisions.",
+    eyebrow: "OPERATIONS / FINANCE / MANAGEMENT",
+    gateTitle: "From fragmented data to defensible management decisions.",
     gateLead: "Three sites. Three export layouts. One month-end close. Use Copilot to trace the numbers, challenge the narrative and prepare action.",
     journey1: "Understand context", journey2: "Trace the numbers", journey3: "Prepare action",
     unlockTitle: "Open the hands-on guide", unlockLead: "Complete Indonesian and English prompts, matched source files and practical steps.",
@@ -64,7 +73,7 @@ const labels = {
     setup: "Before you start", notes: "Keep in view", success: "What you should see",
     copy: "Copy prompt", copied: "Prompt copied.", copyError: "The browser blocked automatic copying. Select the prompt text and copy it manually.",
     inputs: "Use", outputs: "New outputs", sourceFiles: "Files for this step",
-    files: "Sample files", fabric: "Optional · Build Fabric", previous: "Previous", next: "Next",
+    files: "Sample files", fabric: "Optional · Build Fabric", takeHome: "Take-home · outside the session", previous: "Previous", next: "Next",
     filesTitle: "Download one edition. Follow one story.",
     filesLead: "Both packages contain the same numbers and identifiers. Guides and narratives are localized; technical column names stay stable.",
     downloadID: "Unduh file Indonesia", downloadEN: "Download English files",
@@ -83,13 +92,22 @@ const labels = {
     ],
     fabricNote: "Cowork consumes a file snapshot on this path, not a verified direct connection. The notebook has not run in your Fabric tenant. Data agents have separate capacity and access requirements.",
     references: "Microsoft sources", searchTitle: "Search results", noResults: "No matching prompts. Try reconciliation, VBA or Council.",
-    clearSearch: "Clear search", core: "60 minutes · core workflow", stats: ["fictional sites", "ledger rows", "AP invoice lines", "prompts per language"],
-    overview: "Core flow: Council → Excel → Critique → Cowork → Browser Use. VBA, skills and Fabric are extensions.",
+    clearSearch: "Clear search", core: "90 minutes · 5 demos", stats: ["minutes including Q&A", "core demos", "core prompts per language", "areas: operations, finance, management"],
+    overview: "Five demos, six prompts. Operations, finance and management are all in the main flow. VBA, skills and Fabric are take-home material.",
     scenario: "AUGUST 2026 / MONTH-END CLOSE",
     permissions: "Use a work account with Researcher, Cowork and Copilot in Excel access. Browser Use requires Cowork on the web in Edge, the same work profile and admin enablement. Select Model Council for model comparisons and Auto for Critique. Confirm availability before the session.",
     noSend: "Every company, person, amount and communication in the sample files is fictional. The workflow stops at a draft for human review.",
     fabricTime: "45-60 minutes + optional data agent",
-    filesNote: "File 06 is a draft to challenge, not an answer key. File 09 is the reference to open after rebuilding the formulas."
+    filesNote: "Use only files 01-07 during the session. File 06 is a draft to challenge. Macros, skills and file 09 remain take-home material.",
+    agenda: "Your 90-minute schedule", clock: "Minutes", activity: "Demo", prompts: "Prompts",
+    welcome: "Opening and context", qa: "Q&A", total: "Total",
+    takeHomeTitle: "Keep these for after the session.",
+    takeHomeLead: "Do not add more exercises to the 90 minutes. VBA, formulas and skills remain available; the Fabric guide is below.",
+    referenceTitle: "Open the complete self-study prompt library",
+    referenceNote: "This library preserves the earlier detailed workflow and its output filenames. Follow its internal dependencies; do not assume the condensed session's Finance_Review replaces every detailed-workflow output.",
+    finish: "The five demos are complete. Keep the final five minutes for questions. Do not open the take-home material during this session.",
+    searchScope: "Search covers the six core prompts only. Open Take-home for the complete library.",
+    scheduleNote: "05-15 means elapsed minutes 5 to 15, not clock time. Durations are demo allocations, not processing-time guarantees."
   }
 };
 
@@ -142,11 +160,12 @@ function translateShell() {
 function sections() {
   const result = [...content.sections];
   result.splice(1, 0, {id: "files", title: {id: labels.id.files, en: labels.en.files}});
-  result.push({id: "fabric", title: {id: labels.id.fabric, en: labels.en.fabric}});
+  result.push({id: "take-home", title: {id: labels.id.takeHome, en: labels.en.takeHome}});
   return result;
 }
 
 function navigate(id, focus = true) {
+  id = content.legacyRoutes?.[id] || id;
   if (!sections().some(section => section.id === id)) return;
   activeSection = id;
   el("search").value = "";
@@ -262,13 +281,14 @@ function renderSection(section, main) {
     main.append(node("p", text("overview")));
     const strip = node("div", undefined, "stat-strip");
     const count = content.sections.reduce((sum,s) => sum+s.cards.reduce((n,c)=>n+c.prompts.length,0),0);
-    [3, 3012, 1092, count].forEach((value, i) => {
+    [content.agenda.totalMinutes, content.agenda.stages.length, count, 3].forEach((value, i) => {
       const item = node("div");
       item.append(node("strong", value.toLocaleString(language === "id" ? "id-ID" : "en-US")),
                   node("span", labels[language].stats[i]));
       strip.append(item);
     });
     main.append(strip);
+    renderAgenda(main);
   }
   if (section.setup[language]?.length) {
     const setup = node("section", undefined, "setup");
@@ -290,6 +310,44 @@ function renderSection(section, main) {
     main.append(node("p", text("permissions"), "small"), node("p", text("noSend"), "small"));
     renderSources(main);
   }
+}
+
+function renderAgenda(main) {
+  const section = node("section", undefined, "agenda");
+  section.append(node("h2", text("agenda")));
+  const table = node("table", undefined, "file-table agenda-table");
+  table.id = "agenda-table";
+  const header = node("tr");
+  ["clock", "activity", "prompts"].forEach(key => header.append(node("th", text(key))));
+  const thead = node("thead");
+  thead.append(header);
+  table.append(thead);
+  const tbody = node("tbody");
+  let elapsed = 0;
+  const append = (minutes, title, promptCount, sectionId) => {
+    const row = node("tr");
+    row.dataset.minutes = minutes;
+    row.append(node("td", `${String(elapsed).padStart(2, "0")}-${String(elapsed + minutes).padStart(2, "0")}`));
+    const cell = node("td");
+    if (sectionId) {
+      const button = node("button", title, "agenda-link");
+      button.type = "button";
+      button.addEventListener("click", () => navigate(sectionId));
+      cell.append(button);
+    } else cell.textContent = title;
+    row.append(cell, node("td", promptCount ? String(promptCount) : "-"));
+    tbody.append(row);
+    elapsed += minutes;
+  };
+  append(content.agenda.openingMinutes, text("welcome"), 0);
+  content.agenda.stages.forEach(stage => {
+    const s = content.sections.find(section => section.id === stage.sectionId);
+    append(stage.minutes, local(stage.title), s.cards.reduce((n,c) => n+c.prompts.length, 0), stage.sectionId);
+  });
+  append(content.agenda.qaMinutes, text("qa"), 0);
+  table.append(tbody);
+  section.append(table, node("p", text("scheduleNote"), "small"));
+  main.append(section);
 }
 
 function tile(title, detail, href, download = true) {
@@ -329,7 +387,7 @@ function renderFiles(main) {
 }
 
 function renderFabric(main) {
-  main.append(head(text("fabricTitle"), text("fabricLead")));
+  main.append(node("h2", text("fabricTitle")), node("p", text("fabricLead")));
   const grid = node("div", undefined, "download-grid");
   grid.append(tile(text("fabricGuide"), text("fabricTime"),
                    `fabric/04_Fabric_Build_${language.toUpperCase()}.html`, false),
@@ -337,8 +395,36 @@ function renderFabric(main) {
   main.append(grid, list(labels[language].fabricSteps, true), node("p", text("fabricNote"), "notes"));
 }
 
+function renderTakeHome(main) {
+  main.append(head(text("takeHomeTitle"), text("takeHomeLead")));
+  const library = node("details", undefined, "notes reference-library");
+  library.append(node("summary", text("referenceTitle")));
+  let built = false;
+  library.addEventListener("toggle", () => {
+    if (!library.open || built) return;
+    built = true;
+    library.append(node("p", text("referenceNote")));
+    content.referenceSections.forEach(section => {
+      const details = node("details", undefined, "reference-section");
+      details.append(node("summary", local(section.title)));
+      let loaded = false;
+      details.addEventListener("toggle", () => {
+        if (!details.open || loaded) return;
+        loaded = true;
+        if(section.setup[language].length) details.append(list(section.setup[language], true));
+        section.cards.forEach(card => details.append(taskCard(card)));
+        if(section.notes[language].length) details.append(list(section.notes[language]));
+      });
+      library.append(details);
+    });
+  });
+  main.append(library);
+  renderFabric(main);
+}
+
 function renderSearch(main, query) {
   main.append(head(text("searchTitle"), query));
+  main.append(node("p", text("searchScope"), "small"));
   const clear = node("button", text("clearSearch"));
   clear.type = "button";
   clear.addEventListener("click", () => { el("search").value = ""; render(); el("search").focus(); });
@@ -358,9 +444,10 @@ function render() {
   const query = el("search").value.trim();
   if (query) { renderSearch(main, query); return; }
   if (activeSection === "files") renderFiles(main);
-  else if (activeSection === "fabric") renderFabric(main);
+  else if (activeSection === "take-home") renderTakeHome(main);
   else renderSection(content.sections.find(section => section.id === activeSection) || content.sections[0], main);
-  const order = sections();
+  const core = content.sections;
+  const order = core.some(section => section.id === activeSection) ? core : sections();
   const index = order.findIndex(section => section.id === activeSection);
   const pager = node("nav", undefined, "pager");
   pager.setAttribute("aria-label", "Step navigation");
@@ -373,6 +460,7 @@ function render() {
     }
   });
   main.append(pager);
+  if (activeSection === core.at(-1).id) main.append(node("p", text("finish"), "notes"));
 }
 
 function decode(value) {
@@ -401,7 +489,7 @@ async function unlock(event) {
     el("gate").hidden = true;
     el("guide").hidden = false;
     el("lock-button").hidden = false;
-    const requested = location.hash.slice(1);
+    const requested = content.legacyRoutes?.[location.hash.slice(1)] || location.hash.slice(1);
     if (sections().some(section => section.id === requested)) activeSection = requested;
     render();
     el("content").focus();
