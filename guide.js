@@ -3,9 +3,10 @@
 const labels = {
   id: {
     skip: "Langsung ke panduan", theme: "Tema", lock: "Kunci",
-    eyebrow: "OPERASI / KEUANGAN / MANAJEMEN",
-    gateTitle: "Dari data yang berantakan ke keputusan yang bisa dipertanggungjawabkan.",
-    gateLead: "Tiga lokasi. Tiga format ekspor. Satu penutupan bulanan. Gunakan Copilot untuk menelusuri angka, menguji narasi, dan menyiapkan tindakan.",
+    eyebrow: "OPERASI / KEUANGAN / MANAJEMEN / HR",
+    gateTitle: "Enam alur kerja. Dari briefing sampai jawaban kebijakan.",
+    gateLead: "Briefing teks dan HTML, Researcher, Analyst, Cowork dengan empat laporan dan Browser Use, skill Finance di Excel, serta Employee Policy Q&A di Agent Builder.",
+    edition: "Edisi enam bagian · 10 September 2026",
     journey1: "Pahami konteks", journey2: "Telusuri angka", journey3: "Siapkan tindakan",
     unlockTitle: "Buka panduan praktik", unlockLead: "Prompt lengkap dalam bahasa Indonesia dan English, dengan file sumber dan langkah yang sesuai.",
     password: "Password sesi", unlock: "Buka panduan", unlocking: "Membuka panduan...",
@@ -23,7 +24,7 @@ const labels = {
     filesTitle: "Unduh satu edisi, jalankan satu cerita.",
     filesLead: "Dua paket memuat angka dan ID yang sama. Panduan serta narasi disesuaikan dengan bahasa masing-masing; nama kolom teknis dipertahankan.",
     downloadID: "Unduh file Indonesia", downloadEN: "Download English files",
-    archiveDetail: "12 file: 7 sumber utama, workbook VBA, sumber tanpa makro, referensi rumus, kode VBA, dan skill.",
+    archiveDetail: "Paket asli, empat sumber rinci 10-13 untuk Cowork, dan buku pedoman karyawan 14 untuk Agent Builder.",
     file: "File", purpose: "Kegunaan", size: "Ukuran", macroWarning: "File .xlsm berisi VBA yang dijalankan manual di Excel desktop. Tinjau kode lebih dahulu. Jangan menonaktifkan kebijakan keamanan; gunakan sumber .xlsx jika makro diblokir.",
     sharedSource: "GenericCostAllocation.bas memakai ID teknis yang sama pada kedua edisi. Komentar kode berbahasa Inggris; panduan pengguna tersedia dalam kedua bahasa.",
     fabricTitle: "Dari file latihan ke tabel Fabric.",
@@ -38,28 +39,29 @@ const labels = {
     ],
     fabricNote: "Cowork memakai snapshot file pada jalur ini, bukan koneksi langsung yang telah diuji. Notebook belum dijalankan pada tenant Fabric Anda. Data agent memiliki persyaratan kapasitas dan akses tersendiri.",
     references: "Sumber Microsoft", searchTitle: "Hasil pencarian", noResults: "Tidak ada prompt yang cocok. Coba kata seperti rekonsiliasi, VBA, atau Council.",
-    clearSearch: "Hapus pencarian", core: "90 menit · 5 demo", stats: ["menit termasuk tanya jawab", "demo utama", "prompt utama per bahasa", "bidang: operasi, keuangan, manajemen"],
-    overview: "Lima demo, enam prompt. Operasi, keuangan, dan manajemen masuk alur utama. VBA, skill, dan Fabric disimpan untuk dipelajari setelah sesi.",
+    clearSearch: "Hapus pencarian", core: "90 menit · 6 demo", stats: ["menit termasuk tanya jawab", "demo utama", "prompt per bahasa", "bidang: operasi, keuangan, manajemen, HR"],
+    overview: "Enam segmen utama dengan file dan prompt siap pakai. Cowork membuat Excel, Word, PowerPoint dan HTML interaktif, lalu Browser Use mengisi portal. HR dibangun langsung di Agent Builder.",
     scenario: "AGUSTUS 2026 / PENUTUPAN BULANAN",
-    permissions: "Gunakan akun kerja dengan akses ke Researcher, Cowork, dan Copilot di Excel. Browser Use memerlukan Cowork web di Edge, profil kerja yang sama, serta izin admin. Pilih Model Council untuk perbandingan model dan Auto untuk Critique. Periksa ketersediaan sebelum sesi.",
+    permissions: "Periksa akses Copilot Chat, Researcher, Analyst, Cowork, Copilot di Excel dan Agent Builder sebelum sesi. Pilih mode Researcher melalui UI, bukan prompt. Siapkan Browser Use pada lingkungan yang diizinkan admin.",
     noSend: "Seluruh perusahaan, orang, angka, dan komunikasi pada file contoh adalah fiktif. Alur berhenti pada draf untuk ditinjau manusia.",
     fabricTime: "45-60 menit + data agent opsional",
-    filesNote: "Gunakan hanya file 01-07 selama sesi. File 06 adalah draf untuk dikritisi. Makro, skill, dan file 09 disimpan sebagai bahan lanjutan.",
+    filesNote: "Alur utama: 07 untuk briefing; 10-13 untuk Researcher, Analyst, Cowork dan Excel; 14 untuk HR Agent Builder. File 01-06, VBA dan Fabric tersedia untuk latihan tambahan. Tiga skill Finance bawaan ada di demo Excel utama.",
     agenda: "Alokasi 90 menit", clock: "Menit", activity: "Demo", prompts: "Prompt",
     welcome: "Pembukaan dan konteks", qa: "Tanya jawab", total: "Total",
     takeHomeTitle: "Simpan untuk setelah sesi.",
-    takeHomeLead: "Tidak perlu menambahkan latihan lain ke 90 menit. File VBA, rumus, dan skill tetap tersedia; panduan Fabric ada di bawah.",
+    takeHomeLead: "Latihan sebelumnya, VBA, rumus dan skill khusus tetap tersedia di sini. Tiga skill Finance bawaan sudah masuk demo Excel utama. Panduan Fabric ada di bawah.",
     referenceTitle: "Buka pustaka lengkap untuk latihan mandiri",
-    referenceNote: "Pustaka ini mempertahankan alur rinci sebelumnya dan nama file hasilnya. Jalankan dependensi di dalam alur tersebut; jangan menganggap Finance_Review dari sesi ringkas menggantikan seluruh hasil alur rinci.",
-    finish: "Lima demo selesai. Sisihkan lima menit terakhir untuk tanya jawab. Bahan lanjutan tidak perlu dibuka dalam sesi ini.",
-    searchScope: "Pencarian ini hanya mencakup enam prompt utama. Buka Bahan lanjutan untuk pustaka lengkap.",
+    referenceNote: "Pustaka ini mempertahankan latihan lama beserta sumber dan dependensinya. Jangan mencampurkan model dan keluaran lama dengan alur enam bagian terbaru.",
+    finish: "Enam segmen selesai. Sisihkan lima menit terakhir untuk tanya jawab.",
+    searchScope: "Pencarian mencakup prompt utama dan materi HR Agent Builder. Buka Bahan lanjutan untuk pustaka lengkap.",
     scheduleNote: "05-15 berarti menit ke-5 sampai ke-15, bukan jam. Durasi adalah alokasi demo, bukan jaminan waktu proses."
   },
   en: {
     skip: "Skip to guide", theme: "Theme", lock: "Lock",
-    eyebrow: "OPERATIONS / FINANCE / MANAGEMENT",
-    gateTitle: "From fragmented data to defensible management decisions.",
-    gateLead: "Three sites. Three export layouts. One month-end close. Use Copilot to trace the numbers, challenge the narrative and prepare action.",
+    eyebrow: "OPERATIONS / FINANCE / MANAGEMENT / HR",
+    gateTitle: "Six workflows. From morning briefing to policy answers.",
+    gateLead: "Text and HTML briefing, Researcher, Analyst, Cowork with four reports and Browser Use, Excel Finance skills, and Employee Policy Q&A in Agent Builder.",
+    edition: "Six-part edition · 10 September 2026",
     journey1: "Understand context", journey2: "Trace the numbers", journey3: "Prepare action",
     unlockTitle: "Open the hands-on guide", unlockLead: "Complete Indonesian and English prompts, matched source files and practical steps.",
     password: "Session password", unlock: "Open guide", unlocking: "Opening guide...",
@@ -77,7 +79,7 @@ const labels = {
     filesTitle: "Download one edition. Follow one story.",
     filesLead: "Both packages contain the same numbers and identifiers. Guides and narratives are localized; technical column names stay stable.",
     downloadID: "Unduh file Indonesia", downloadEN: "Download English files",
-    archiveDetail: "12 files: 7 core sources, VBA workbook, macro-free source, formula reference, VBA code and skill.",
+    archiveDetail: "Original exercise pack, four detailed Cowork sources 10-13, and employee handbook 14 for Agent Builder.",
     file: "File", purpose: "Purpose", size: "Size", macroWarning: "The .xlsm files contain VBA that you run manually in desktop Excel. Review the code first. Do not disable security policy; use the .xlsx source if macros are blocked.",
     sharedSource: "GenericCostAllocation.bas uses the same technical identifiers in both editions. Code comments are in English; user guidance is available in both languages.",
     fabricTitle: "From exercise files to Fabric tables.",
@@ -92,21 +94,21 @@ const labels = {
     ],
     fabricNote: "Cowork consumes a file snapshot on this path, not a verified direct connection. The notebook has not run in your Fabric tenant. Data agents have separate capacity and access requirements.",
     references: "Microsoft sources", searchTitle: "Search results", noResults: "No matching prompts. Try reconciliation, VBA or Council.",
-    clearSearch: "Clear search", core: "90 minutes · 5 demos", stats: ["minutes including Q&A", "core demos", "core prompts per language", "areas: operations, finance, management"],
-    overview: "Five demos, six prompts. Operations, finance and management are all in the main flow. VBA, skills and Fabric are take-home material.",
+    clearSearch: "Clear search", core: "90 minutes · 6 demos", stats: ["minutes including Q&A", "core demos", "prompts per language", "areas: operations, finance, management, HR"],
+    overview: "Six core segments with ready-to-use files and prompts. Cowork creates Excel, Word, PowerPoint and interactive HTML, then Browser Use fills the portal. HR is built directly in Agent Builder.",
     scenario: "AUGUST 2026 / MONTH-END CLOSE",
-    permissions: "Use a work account with Researcher, Cowork and Copilot in Excel access. Browser Use requires Cowork on the web in Edge, the same work profile and admin enablement. Select Model Council for model comparisons and Auto for Critique. Confirm availability before the session.",
+    permissions: "Confirm Copilot Chat, Researcher, Analyst, Cowork, Copilot in Excel and Agent Builder access before the session. Choose Researcher modes in the UI, not the prompt. Prepare Browser Use in your admin-enabled environment.",
     noSend: "Every company, person, amount and communication in the sample files is fictional. The workflow stops at a draft for human review.",
     fabricTime: "45-60 minutes + optional data agent",
-    filesNote: "Use only files 01-07 during the session. File 06 is a draft to challenge. Macros, skills and file 09 remain take-home material.",
+    filesNote: "Core flow: 07 for briefing; 10-13 for Researcher, Analyst, Cowork and Excel; 14 for HR Agent Builder. Files 01-06, VBA and Fabric remain additional exercises. The three built-in Finance skills are in the core Excel demo.",
     agenda: "Your 90-minute schedule", clock: "Minutes", activity: "Demo", prompts: "Prompts",
     welcome: "Opening and context", qa: "Q&A", total: "Total",
     takeHomeTitle: "Keep these for after the session.",
-    takeHomeLead: "Do not add more exercises to the 90 minutes. VBA, formulas and skills remain available; the Fabric guide is below.",
+    takeHomeLead: "Previous exercises, VBA, formulas and custom skills remain available here. The three built-in Finance skills are already in the core Excel demo. The Fabric guide is below.",
     referenceTitle: "Open the complete self-study prompt library",
-    referenceNote: "This library preserves the earlier detailed workflow and its output filenames. Follow its internal dependencies; do not assume the condensed session's Finance_Review replaces every detailed-workflow output.",
-    finish: "The five demos are complete. Keep the final five minutes for questions. Do not open the take-home material during this session.",
-    searchScope: "Search covers the six core prompts only. Open Take-home for the complete library.",
+    referenceNote: "This library preserves earlier exercises with their own sources and dependencies. Do not mix older models and outputs with the current six-part flow.",
+    finish: "The six segments are complete. Keep the final five minutes for questions.",
+    searchScope: "Search covers the core prompts and HR Agent Builder materials. Open Take-home for the complete library.",
     scheduleNote: "05-15 means elapsed minutes 5 to 15, not clock time. Durations are demo allocations, not processing-time guarantees."
   }
 };
@@ -160,6 +162,7 @@ function translateShell() {
 function sections() {
   const result = [...content.sections];
   result.splice(1, 0, {id: "files", title: {id: labels.id.files, en: labels.en.files}});
+  if (content.agentBuilder && !result.some(section => section.id === content.agentBuilder.id)) result.push(content.agentBuilder);
   result.push({id: "take-home", title: {id: labels.id.takeHome, en: labels.en.takeHome}});
   return result;
 }
@@ -276,12 +279,19 @@ function renderSources(main) {
 }
 
 function renderSection(section, main) {
+  if (section.id === "start") main.append(node("p", text("edition"), "edition-banner"));
   main.append(head(local(section.title), local(section.subtitle), local(section.duration)));
+  if (section.downloads?.length) {
+    const grid = node("div", undefined, "download-grid");
+    section.downloads.filter(file => !file.language || file.language === language)
+      .forEach(file => grid.append(tile(local(file.title), local(file.detail), file.href)));
+    main.append(grid);
+  }
   if (section.id === "start") {
     main.append(node("p", text("overview")));
     const strip = node("div", undefined, "stat-strip");
     const count = content.sections.reduce((sum,s) => sum+s.cards.reduce((n,c)=>n+c.prompts.length,0),0);
-    [content.agenda.totalMinutes, content.agenda.stages.length, count, 3].forEach((value, i) => {
+    [content.agenda.totalMinutes, content.agenda.stages.length, count, 4].forEach((value, i) => {
       const item = node("div");
       item.append(node("strong", value.toLocaleString(language === "id" ? "id-ID" : "en-US")),
                   node("span", labels[language].stats[i]));
@@ -374,7 +384,14 @@ function renderFiles(main) {
   const body = node("tbody");
   content.files.filter(file => file.language === language).forEach(file => {
     const item = node("tr");
-    item.append(node("td", file.name), node("td", local(file.description)),
+    const name = node("td");
+    if (file.download) {
+      const link = node("a", file.name);
+      link.href = file.download;
+      link.setAttribute("download", "");
+      name.append(link);
+    } else name.textContent = file.name;
+    item.append(name, node("td", local(file.description)),
                 node("td", `${Math.ceil(file.bytes / 1024)} KB`));
     body.append(item);
   });
@@ -430,7 +447,7 @@ function renderSearch(main, query) {
   clear.addEventListener("click", () => { el("search").value = ""; render(); el("search").focus(); });
   main.append(clear);
   let matches = 0;
-  content.sections.forEach(section => section.cards.forEach(card => {
+  sections().filter(section => section.cards).forEach(section => section.cards.forEach(card => {
     const test = prompt => `${local(card.title)} ${local(card.surface)} ${local(prompt.title)} ${local(prompt.text)}`.toLocaleLowerCase().includes(query.toLocaleLowerCase());
     if (card.prompts.some(test)) { matches++; main.append(taskCard(card, test)); }
   }));
@@ -445,6 +462,7 @@ function render() {
   if (query) { renderSearch(main, query); return; }
   if (activeSection === "files") renderFiles(main);
   else if (activeSection === "take-home") renderTakeHome(main);
+  else if (activeSection === content.agentBuilder?.id) renderSection(content.agentBuilder, main);
   else renderSection(content.sections.find(section => section.id === activeSection) || content.sections[0], main);
   const core = content.sections;
   const order = core.some(section => section.id === activeSection) ? core : sections();
@@ -503,6 +521,9 @@ async function unlock(event) {
 }
 
 el("unlock-form").addEventListener("submit", unlock);
+window.addEventListener("hashchange", () => {
+  if (content) navigate(location.hash.slice(1) || "start", false);
+});
 el("language-id").addEventListener("click", () => { language = "id"; translateShell(); });
 el("language-en").addEventListener("click", () => { language = "en"; translateShell(); });
 el("search").addEventListener("input", () => { if (content) render(); });
