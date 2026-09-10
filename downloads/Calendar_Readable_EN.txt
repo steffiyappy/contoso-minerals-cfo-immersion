@@ -1,0 +1,37 @@
+ORIGINAL SYNTHETIC TRAINING CASE. All people, communications, figures and approvals are fictional. Created locally, not sent, imported or retrieved from Microsoft 365. Not company operating records.
+
+Simulated snapshot: 9 September 2026, 08:00 LOCAL (Singapore, UTC+08:00). Financial cut-off: 31 August 2026, 23:59:59 LOCAL. These dates are fictional, not the current date.
+
+METHOD:PUBLISH. Local fixture only; no invitations, attendees, reminders or import actions.
+
+----- FINCTX-M01 -----
+
+UID: finctx-m01.en@contoso.example
+
+[Fictional] Missed close and liquidity meeting
+
+Start / Mulai: 2026-09-07T15:00:00+08:00
+
+End / Selesai: 2026-09-07T15:30:00+08:00
+
+Timezone / Zona waktu: Asia/Singapore, UTC+08:00
+
+ORIGINAL SYNTHETIC TRAINING CASE. All people, communications, figures and approvals are fictional. Created locally, not sent, imported or retrieved from Microsoft 365. Not company operating records.
+Simulated snapshot: 9 September 2026, 08:00 LOCAL (Singapore, UTC+08:00). Financial cut-off: 31 August 2026, 23:59:59 LOCAL. These dates are fictional, not the current date.
+Original synthetic FINCTX-M01 record. Chair: Arman Pradipta; participants: Maya Hartono, Dimas Wicaksono, Nadia Kusuma. Discuss source approval versus model claims, operational recurrence, cash timing and the optional S03 payment. Working actions only: Maya reconciles; Dimas gathers operating and project evidence; Nadia tests cash scenarios. No revised forecast, reclassification, stage-gate release or payment approved. See 01_Meeting_Minutes_EN.docx.
+
+----- FINCTX-C01 -----
+
+UID: finctx-c01.en@contoso.example
+
+[Fictional] Morning close and liquidity review
+
+Start / Mulai: 2026-09-09T08:30:00+08:00
+
+End / Selesai: 2026-09-09T09:00:00+08:00
+
+Timezone / Zona waktu: Asia/Singapore, UTC+08:00
+
+ORIGINAL SYNTHETIC TRAINING CASE. All people, communications, figures and approvals are fictional. Created locally, not sent, imported or retrieved from Microsoft 365. Not company operating records.
+Simulated snapshot: 9 September 2026, 08:00 LOCAL (Singapore, UTC+08:00). Financial cut-off: 31 August 2026, 23:59:59 LOCAL. These dates are fictional, not the current date.
+Planned review, not completed at the frozen snapshot. Derived calendar ID FINCTX-C01; agenda source FINCTX-E08 and section 02 of 13_Management_Evidence_EN.docx. 08:30 Maya: release completeness; 08:38 Maya / Dimas: gold and cost bridges; 08:46 Nadia: unapproved December liquidity forecast; 08:54 Arman / Dimas: blocked S03 gate and payment proposal. Bring approved certificates, retained before-review model, operational history and an owner/evidence decision register. No meeting outcomes or payment authority are implied.

@@ -1,0 +1,53 @@
+KASUS PELATIHAN SINTETIS ASLI. Semua orang, komunikasi, angka, dan persetujuan bersifat fiktif. Dibuat secara lokal, tidak dikirim, diimpor, atau diambil dari Microsoft 365. Bukan catatan operasi perusahaan.
+
+Snapshot simulasi: 9 September 2026, 08:00 LOKAL (Singapura, UTC+08:00). Batas pencatatan keuangan: 31 Agustus 2026, 23:59:59 LOKAL. Tanggal ini fiktif, bukan tanggal saat ini.
+
+Close working group / Kelompok kerja penutupan
+
+Participants / Peserta: Maya Hartono (controller), Dimas Wicaksono (operations / operasi), Nadia Kusuma (treasury), Arman Pradipta (CFO).
+
+ID FINCTX asli dan target balasan lintas kanal dipertahankan. Item FINCTX-Txx tambahan adalah klarifikasi fiktif, bukan bukti tindakan selesai.
+
+----- FINCTX-E02 | 2026-09-02T16:20:00+08:00 | Dimas Wicaksono | SUMBER SINTETIS ASLI -----
+
+Reply-to / Balasan atas: FINCTX-E01
+
+Dimas Wicaksono → Maya Hartono · Balasan FINCTX-E01: laporan pompa berulang
+
+Saya memahami mengapa kalimat tentang pompa yang berulang tampak seperti pengunggahan ulang. Tim sif menggunakan uraian standar ketika gejala muncul kembali setelah peralatan dihidupkan; hal itu tidak otomatis menjadikan dua catatan peristiwa sebagai kejadian yang sama. Kita perlu membandingkan aset, waktu mulai dan selesai, ID laporan, serta perintah kerja pemeliharaan. Sebagian pengamatan awal mempunyai revisi teknisi yang lebih baru, sehingga uraian lama diganti, bukan dihitung sebagai peristiwa tambahan. Saya tidak meminta keuangan menerima akar penyebab yang dianggap terbukti hanya karena kata-katanya sama. Pisahkan pula waktu henti peralatan dari penghentian seluruh pabrik yang benar-benar diamati. Catatan bertumpang tindih dapat menggambarkan pekerjaan bersamaan; penjumlahan menit peralatan akan membesar-besarkan paparan operasi kepada CFO.
+
+----- FINCTX-T01 | 2026-09-02T16:45:00+08:00 | Maya Hartono | TINDAK LANJUT FIKTIF TAMBAHAN -----
+
+Reply-to / Balasan atas: FINCTX-E02
+
+Saya sepakat mengenai standar bukti, Dimas. Simpan ID laporan awal bersama jejak revisi teknisi agar uraian yang direvisi menggantikan uraian sebelumnya, bukan menciptakan peristiwa tambahan. Mohon bawa waktu peralatan dan penghentian pabrik yang diamati secara terpisah. Saya meminta perbandingan, bukan mengonfirmasi akar penyebab atau nilai kerugian produksi. FINCTX-E01 tetap menjadi pengendalian penerimaan data saat rilis sumber disiapkan.
+
+----- FINCTX-E04 | 2026-09-04T11:15:00+08:00 | Nadia Kusuma | SUMBER SINTETIS ASLI -----
+
+Reply-to / Balasan atas: FINCTX-E03
+
+Nadia Kusuma → Maya Hartono dan Dimas Wicaksono · Balasan FINCTX-E03: dasar kas
+
+Draf presentasi menyatakan realisasi Agustus memperbaiki prospek karena biaya operasi tampak lebih rendah daripada prakiraan model. Draf juga mengusulkan belanja pengembangan S03 disajikan sebagai biaya operasi untuk perbandingan lokasi; Maya belum menyetujui perlakuan tersebut. Saya belum dapat menerima draf sebagai kesimpulan kas. Penerimaan mengikuti aplikasi treasury bertanggal, bukan ons produksi atau total faktur semata; pembayaran pemasok memiliki waktu penyelesaian dan biaya bank tersendiri. Buat rekonsiliasi dari model sebelum penelaahan ke baseline yang sudah ditelaah, lalu rekonsiliasi terpisah untuk pembaruan Agustus disetujui. Tanpanya kita tidak dapat membedakan perbaikan logika dari kinerja aktual. Saya juga memerlukan pengujian cadangan grup Desember dan kebutuhan pendanaan lokasi sebelum membahas pembayaran proyek opsional.
+
+----- FINCTX-T02 | 2026-09-04T11:40:00+08:00 | Dimas Wicaksono | TINDAK LANJUT FIKTIF TAMBAHAN -----
+
+Reply-to / Balasan atas: FINCTX-E04
+
+Dipahami, Nadia. Saya tidak akan menyebut usulan penyajian kategori S03 sebagai persetujuan controller atau menganggap belanja lebih rendah sebagai kemajuan fisik tersertifikasi. Penjelasan operasi saya akan membedakan produksi dari penjualan dan menandai bukti pengulangan yang belum lengkap. Permintaan dalam FINCTX-E04 atas rekonsiliasi perbaikan model dan pembaruan Agustus secara terpisah tetap terbuka; balasan ini tidak menyediakan perhitungan tersebut atau membuktikan perbaikan kas.
+
+----- FINCTX-E07 | 2026-09-08T17:35:00+08:00 | Arman Pradipta | SUMBER SINTETIS ASLI -----
+
+Reply-to / Balasan atas: FINCTX-M01; FINCTX-E06
+
+Synthetic email bridge Message-ID / ID penghubung email sintetis: <finctx-e07.teams.id@contoso.example>
+
+Arman Pradipta → Kelompok kerja penutupan · Tindak lanjut FINCTX-M01 dan FINCTX-E06
+
+Pembahasan kemarin tidak menyetujui prakiraan baru, reklasifikasi, atau pembayaran. Kas Desember sebesar USD 39,305 juta yang dilaporkan tim model adalah klaim lembar kerja belum disetujui dari file sebelum penelaahan; sajikan demikian, jangan diulang sebagai prakiraan treasury yang telah ditandatangani. Bawa jejak sumber dan penjelasan ringkas mengenai kesimpulan yang bertahan setelah pemeriksaan independen. Saya ingin lima klaim draf diuji: produksi sama dengan penjualan, perlakuan kategori yang diusulkan dapat diterima, pengajuan identik membuktikan pengulangan adalah duplikat, realisasi Agustus otomatis memperbaiki prospek, dan belanja modal di bawah rencana membuktikan kemajuan. Kesepakatan antarpengulas bukan bukti. Untuk pembahasan pagi, tetapkan pemilik setiap masalah terbuka dan bukti yang benar-benar dapat mengubah keputusan.
+
+----- FINCTX-T03 | 2026-09-08T18:00:00+08:00 | Nadia Kusuma | TINDAK LANJUT FIKTIF TAMBAHAN -----
+
+Reply-to / Balasan atas: FINCTX-E07
+
+Saya akan mempertahankan label klaim belum disetujui pada pernyataan kas sebelum penelaahan, sesuai FINCTX-E07. Pengujian dua skenario dalam FINCTX-E06 masih memerlukan baseline yang telah ditelaah dan pemetaan bertanggal. Utas ini tidak menyediakan pendanaan pengganti yang disetujui atau kewenangan pembayaran. Saya akan mencantumkan kesenjangan tersebut untuk penelaahan pagi dan mempertahankan perbedaan dalam FINCTX-M01 antara cadangan perencanaan dan kovenan utang. Ini konfirmasi pekerjaan yang diminta, bukan prakiraan treasury yang telah selesai.

@@ -1,0 +1,37 @@
+KASUS PELATIHAN SINTETIS ASLI. Semua orang, komunikasi, angka, dan persetujuan bersifat fiktif. Dibuat secara lokal, tidak dikirim, diimpor, atau diambil dari Microsoft 365. Bukan catatan operasi perusahaan.
+
+Snapshot simulasi: 9 September 2026, 08:00 LOKAL (Singapura, UTC+08:00). Batas pencatatan keuangan: 31 Agustus 2026, 23:59:59 LOKAL. Tanggal ini fiktif, bukan tanggal saat ini.
+
+METHOD:PUBLISH. Hanya berkas lokal; tanpa undangan, daftar penerima kalender, pengingat, atau tindakan impor.
+
+----- FINCTX-M01 -----
+
+UID: finctx-m01.id@contoso.example
+
+[Fiktif] Rapat terlewat penutupan dan likuiditas
+
+Start / Mulai: 2026-09-07T15:00:00+08:00
+
+End / Selesai: 2026-09-07T15:30:00+08:00
+
+Timezone / Zona waktu: Asia/Singapore, UTC+08:00
+
+KASUS PELATIHAN SINTETIS ASLI. Semua orang, komunikasi, angka, dan persetujuan bersifat fiktif. Dibuat secara lokal, tidak dikirim, diimpor, atau diambil dari Microsoft 365. Bukan catatan operasi perusahaan.
+Snapshot simulasi: 9 September 2026, 08:00 LOKAL (Singapura, UTC+08:00). Batas pencatatan keuangan: 31 Agustus 2026, 23:59:59 LOKAL. Tanggal ini fiktif, bukan tanggal saat ini.
+Catatan sintetis asli FINCTX-M01. Ketua: Arman Pradipta; peserta: Maya Hartono, Dimas Wicaksono, Nadia Kusuma. Bahas persetujuan sumber versus klaim model, pengulangan operasi, waktu kas, dan pembayaran S03 opsional. Hanya tindak lanjut kerja: Maya merekonsiliasi; Dimas mengumpulkan bukti operasi dan proyek; Nadia menguji skenario kas. Tidak ada prakiraan baru, reklasifikasi, pelepasan tahap, atau pembayaran yang disetujui. Lihat 01_Meeting_Minutes_ID.docx.
+
+----- FINCTX-C01 -----
+
+UID: finctx-c01.id@contoso.example
+
+[Fiktif] Penelaahan pagi penutupan dan likuiditas
+
+Start / Mulai: 2026-09-09T08:30:00+08:00
+
+End / Selesai: 2026-09-09T09:00:00+08:00
+
+Timezone / Zona waktu: Asia/Singapore, UTC+08:00
+
+KASUS PELATIHAN SINTETIS ASLI. Semua orang, komunikasi, angka, dan persetujuan bersifat fiktif. Dibuat secara lokal, tidak dikirim, diimpor, atau diambil dari Microsoft 365. Bukan catatan operasi perusahaan.
+Snapshot simulasi: 9 September 2026, 08:00 LOKAL (Singapura, UTC+08:00). Batas pencatatan keuangan: 31 Agustus 2026, 23:59:59 LOKAL. Tanggal ini fiktif, bukan tanggal saat ini.
+Penelaahan direncanakan, belum berlangsung pada snapshot beku. ID kalender turunan FINCTX-C01; sumber agenda FINCTX-E08 dan bagian 02 dalam 13_Management_Evidence_ID.docx. 08:30 Maya: kelengkapan rilis; 08:38 Maya / Dimas: rekonsiliasi emas dan biaya; 08:46 Nadia: prakiraan likuiditas Desember belum disetujui; 08:54 Arman / Dimas: tahap S03 terhambat dan usulan pembayaran. Bawa sertifikat disetujui, model sebelum penelaahan, riwayat operasi, dan register keputusan berisi pemilik/bukti. Tidak menyiratkan hasil rapat atau kewenangan pembayaran.

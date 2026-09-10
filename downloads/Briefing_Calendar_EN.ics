@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+PRODID:-//Contoso Example//Original Synthetic Daily Briefing//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Asia/Singapore
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:SGT
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:finctx-m01.en@contoso.example
+DTSTAMP:20260909T000000Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Singapore:20260907T150000
+DTEND;TZID=Asia/Singapore:20260907T153000
+SUMMARY:[Fictional] Missed close and liquidity meeting
+DESCRIPTION:ORIGINAL SYNTHETIC TRAINING CASE. All people\, communications\,
+  figures and approvals are fictional. Created locally\, not sent\, importe
+ d or retrieved from Microsoft 365. Not company operating records.\nSimulat
+ ed snapshot: 9 September 2026\, 08:00 LOCAL (Singapore\, UTC+08:00). Finan
+ cial cut-off: 31 August 2026\, 23:59:59 LOCAL. These dates are fictional\,
+  not the current date.\nOriginal synthetic FINCTX-M01 record. Chair: Arman
+  Pradipta\; participants: Maya Hartono\, Dimas Wicaksono\, Nadia Kusuma. D
+ iscuss source approval versus model claims\, operational recurrence\, cash
+  timing and the optional S03 payment. Working actions only: Maya reconcile
+ s\; Dimas gathers operating and project evidence\; Nadia tests cash scenar
+ ios. No revised forecast\, reclassification\, stage-gate release or paymen
+ t approved. See 01_Meeting_Minutes_EN.docx.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+X-EVIDENCE-ID:FINCTX-M01
+END:VEVENT
+BEGIN:VEVENT
+UID:finctx-c01.en@contoso.example
+DTSTAMP:20260909T000000Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Singapore:20260909T083000
+DTEND;TZID=Asia/Singapore:20260909T090000
+SUMMARY:[Fictional] Morning close and liquidity review
+DESCRIPTION:ORIGINAL SYNTHETIC TRAINING CASE. All people\, communications\,
+  figures and approvals are fictional. Created locally\, not sent\, importe
+ d or retrieved from Microsoft 365. Not company operating records.\nSimulat
+ ed snapshot: 9 September 2026\, 08:00 LOCAL (Singapore\, UTC+08:00). Finan
+ cial cut-off: 31 August 2026\, 23:59:59 LOCAL. These dates are fictional\,
+  not the current date.\nPlanned review\, not completed at the frozen snaps
+ hot. Derived calendar ID FINCTX-C01\; agenda source FINCTX-E08 and section
+  02 of 13_Management_Evidence_EN.docx. 08:30 Maya: release completeness\; 
+ 08:38 Maya / Dimas: gold and cost bridges\; 08:46 Nadia: unapproved Decemb
+ er liquidity forecast\; 08:54 Arman / Dimas: blocked S03 gate and payment 
+ proposal. Bring approved certificates\, retained before-review model\, ope
+ rational history and an owner/evidence decision register. No meeting outco
+ mes or payment authority are implied.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+X-EVIDENCE-ID:FINCTX-C01
+END:VEVENT
+END:VCALENDAR

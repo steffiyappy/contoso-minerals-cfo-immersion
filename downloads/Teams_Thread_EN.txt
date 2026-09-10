@@ -1,0 +1,53 @@
+ORIGINAL SYNTHETIC TRAINING CASE. All people, communications, figures and approvals are fictional. Created locally, not sent, imported or retrieved from Microsoft 365. Not company operating records.
+
+Simulated snapshot: 9 September 2026, 08:00 LOCAL (Singapore, UTC+08:00). Financial cut-off: 31 August 2026, 23:59:59 LOCAL. These dates are fictional, not the current date.
+
+Close working group / Kelompok kerja penutupan
+
+Participants / Peserta: Maya Hartono (controller), Dimas Wicaksono (operations / operasi), Nadia Kusuma (treasury), Arman Pradipta (CFO).
+
+Original FINCTX IDs and cross-channel reply targets are retained. Added FINCTX-Txx items are fictional clarifications, not proof of completed actions.
+
+----- FINCTX-E02 | 2026-09-02T16:20:00+08:00 | Dimas Wicaksono | ORIGINAL SYNTHETIC SOURCE -----
+
+Reply-to / Balasan atas: FINCTX-E01
+
+Dimas Wicaksono → Maya Hartono · Reply to FINCTX-E01: recurring pump reports
+
+I understand why the recurring pump wording looks like an upload replay. The shift team repeats the standard description when the symptom returns after a restart; that does not automatically make two event records the same incident. We need to compare the equipment, start and end times, report IDs and maintenance tickets. Some earlier observations have a later technician revision, which should replace the description rather than create an extra event. I am not asking finance to accept a proven root cause from repeated wording. Please also keep equipment downtime separate from observed whole-plant interruption. Overlapping records can describe simultaneous work, so a sum of equipment minutes would exaggerate the operational exposure presented to the CFO.
+
+----- FINCTX-T01 | 2026-09-02T16:45:00+08:00 | Maya Hartono | ADDED FICTIONAL FOLLOW-UP -----
+
+Reply-to / Balasan atas: FINCTX-E02
+
+Agreed on the evidence standard, Dimas. Keep the original report IDs and the technician revision trail together so a revised description replaces the earlier description rather than creates another event. Please bring equipment timing and observed plant interruption separately. I am asking for a comparison, not confirming a root cause or a production-loss value. FINCTX-E01 remains an intake control while the source release is being prepared.
+
+----- FINCTX-E04 | 2026-09-04T11:15:00+08:00 | Nadia Kusuma | ORIGINAL SYNTHETIC SOURCE -----
+
+Reply-to / Balasan atas: FINCTX-E03
+
+Nadia Kusuma → Maya Hartono and Dimas Wicaksono · Reply to FINCTX-E03: treasury basis
+
+The draft deck says August actuals improve the outlook because operating costs appear lower than the model forecast. It also proposes presenting S03 development spend as operating cost for site comparability; Maya has not approved that treatment. I cannot accept the draft as a cash conclusion. Collections follow dated treasury applications, not produced ounces or invoice totals alone; vendor payments have settlement timing and separate bank fees. Show a bridge from the before-review model to a reviewed baseline, then a separate bridge for the approved August update. Otherwise we cannot distinguish corrected logic from actual performance. I also need the December group reserve test and any site funding requirement before we debate discretionary project payments.
+
+----- FINCTX-T02 | 2026-09-04T11:40:00+08:00 | Dimas Wicaksono | ADDED FICTIONAL FOLLOW-UP -----
+
+Reply-to / Balasan atas: FINCTX-E04
+
+Understood, Nadia. I will not describe the proposed S03 category presentation as controller-approved or treat lower spend as certified physical progress. My operating explanation will distinguish production from sales and will flag where the recurrence evidence is incomplete. The request in FINCTX-E04 for separate model-repair and August-update bridges remains open; this response does not supply those calculations or establish a cash improvement.
+
+----- FINCTX-E07 | 2026-09-08T17:35:00+08:00 | Arman Pradipta | ORIGINAL SYNTHETIC SOURCE -----
+
+Reply-to / Balasan atas: FINCTX-M01; FINCTX-E06
+
+Synthetic email bridge Message-ID / ID penghubung email sintetis: <finctx-e07.teams.en@contoso.example>
+
+Arman Pradipta → Close working group · Follow-up to FINCTX-M01 and FINCTX-E06
+
+Yesterday's discussion did not approve a revised forecast, reclassification or payment. The model team's reported December cash of USD 39.305 million is an unapproved spreadsheet claim from the before-review file; please show it as such rather than repeat it as a signed treasury forecast. Bring the source trail and a concise explanation of which conclusions survive independent checks. I want five draft claims challenged: production equals sales, the proposed category treatment is acceptable, identical submissions prove duplicate recurrence, August actuals automatically improve the outlook, and capital underspend proves progress. Do not convert agreement among reviewers into evidence. For the morning discussion, identify the owner of each unresolved point and exactly what would change the decision.
+
+----- FINCTX-T03 | 2026-09-08T18:00:00+08:00 | Nadia Kusuma | ADDED FICTIONAL FOLLOW-UP -----
+
+Reply-to / Balasan atas: FINCTX-E07
+
+I will keep the before-review cash statement labelled as an unapproved claim, as requested in FINCTX-E07. The two-case test requested in FINCTX-E06 still needs the reviewed baseline and dated mapping. No approved financing offset or payment authority is supplied by this thread. I will identify these gaps for the morning review and retain the distinction in FINCTX-M01 between a planning reserve and a debt covenant. This is an acknowledgement of the work requested, not a completed treasury forecast.

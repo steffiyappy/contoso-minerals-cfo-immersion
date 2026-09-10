@@ -1,0 +1,3 @@
+downloads/*.eml binary
+downloads/*.ics binary
+downloads/*.txt -text

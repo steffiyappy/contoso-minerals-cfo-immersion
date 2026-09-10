@@ -1,0 +1,357 @@
+ORIGINAL SYNTHETIC TRAINING CASE. All people, communications, figures and approvals are fictional. Created locally, not sent, imported or retrieved from Microsoft 365. Not company operating records.
+
+Simulated snapshot: 9 September 2026, 08:00 LOCAL (Singapore, UTC+08:00). Financial cut-off: 31 August 2026, 23:59:59 LOCAL. These dates are fictional, not the current date.
+
+All 8 local EML messages are reproduced in full below, grouped into 3 threads. Use this TXT if a file interface rejects EML; direct EML support is not assumed. Synthetic cross-channel IDs are not recovered transport headers.
+
+================ THREAD / UTAS: CLOSE ================
+
+----- BEGIN EMAIL FINCTX-E01 -----
+
+Date: Tue, 01 Sep 2026 09:10:00 +0800
+
+From: Maya Hartono <maya.hartono@contoso.example>
+
+To: Arman Pradipta <arman.pradipta@contoso.example>, Dimas Wicaksono <dimas.wicaksono@contoso.example>, Nadia Kusuma <nadia.kusuma@contoso.example>
+
+Subject: [Fictional] August close intake and source release
+
+Message-ID: <finctx-e01.email.en@contoso.example>
+
+X-Synthetic-Training-Case: original-fictional-local-not-sent
+
+X-Evidence-ID: FINCTX-E01
+
+X-Source-Edition: 13_Management_Evidence_EN.docx
+
+X-Fictional-Clarification: no
+
+X-Thread-ID: close
+
+MIME-Version: 1.0
+
+Content-Type: multipart/alternative; boundary="fictional-en-finctx-e01-alternative"
+
+
+
+----- BODY TEXT / ISI TEKS -----
+
+ORIGINAL SYNTHETIC TRAINING CASE. All people, communications, figures and approvals are fictional. Created locally, not sent, imported or retrieved from Microsoft 365. Not company operating records.
+
+Source ID: FINCTX-E01. Original synthetic source body retained verbatim from 13_Management_Evidence_EN.docx.
+
+Maya Hartono → Arman Pradipta, Dimas Wicaksono and Nadia Kusuma · August close intake
+
+Please keep the August intake separate from the existing management model. The model still treats August as a forecast, and a clean-looking spreadsheet is not a controller release. The intake includes repeated uploads and items whose status needs resolution. My team is preparing the approved event list and site/account certificates; until that release is available, please do not call the upload population August actuals. For the close discussion, I need invoice revenue, operating costs, development capital and bank movements distinguished. An invoice can be recorded before it is paid, and a purchase commitment is not another expense. Please retain the submitted version so we can explain every subsequent change rather than overwrite the history.
+
+----- END EMAIL FINCTX-E01 -----
+
+----- BEGIN EMAIL FINCTX-E03 -----
+
+Date: Thu, 03 Sep 2026 17:00:00 +0800
+
+From: Maya Hartono <maya.hartono@contoso.example>
+
+To: Arman Pradipta <arman.pradipta@contoso.example>, Dimas Wicaksono <dimas.wicaksono@contoso.example>, Nadia Kusuma <nadia.kusuma@contoso.example>
+
+Subject: Re: [Fictional] August close intake and source release
+
+Message-ID: <finctx-e03.email.en@contoso.example>
+
+X-Synthetic-Training-Case: original-fictional-local-not-sent
+
+X-Evidence-ID: FINCTX-E03
+
+X-Source-Edition: 13_Management_Evidence_EN.docx
+
+X-Fictional-Clarification: no
+
+X-Thread-ID: close
+
+In-Reply-To: <finctx-e01.email.en@contoso.example>
+
+References: <finctx-e01.email.en@contoso.example>
+
+MIME-Version: 1.0
+
+Content-Type: multipart/alternative; boundary="fictional-en-finctx-e03-alternative"
+
+
+
+----- BODY TEXT / ISI TEKS -----
+
+ORIGINAL SYNTHETIC TRAINING CASE. All people, communications, figures and approvals are fictional. Created locally, not sent, imported or retrieved from Microsoft 365. Not company operating records.
+
+Source ID: FINCTX-E03. Original synthetic source body retained verbatim from 13_Management_Evidence_EN.docx.
+
+Maya Hartono → Close working group · Reply to FINCTX-E01: approved source available
+
+FIN-REL-2026-08-v1 is now the approved synthetic source release. The August selection contains 2,952 approved business events; the 19 held upload rows are not additions to those actuals. Please follow Approved_Batches and keep the scheduled future treasury applications out of the closed month. The controller-supported adjustments are the S01 maintenance accrual of USD 12,500, the S02 power credit of USD 3,400 and the S03 design milestone accrual of USD 8,250. These amounts are already represented in the approved source, so a narrative explaining them is not permission to post them again. The release approves source records, not the formulas in the management workbook or an expansion payment. Preserve the July snapshot and the original budget during the update.
+
+----- END EMAIL FINCTX-E03 -----
+
+----- BEGIN EMAIL FINCTX-E09 -----
+
+Date: Thu, 03 Sep 2026 17:25:00 +0800
+
+From: Dimas Wicaksono <dimas.wicaksono@contoso.example>
+
+To: Maya Hartono <maya.hartono@contoso.example>, Arman Pradipta <arman.pradipta@contoso.example>, Nadia Kusuma <nadia.kusuma@contoso.example>
+
+Subject: Re: [Fictional] August close intake and source release
+
+Message-ID: <finctx-e09.email.en@contoso.example>
+
+X-Synthetic-Training-Case: original-fictional-local-not-sent
+
+X-Evidence-ID: FINCTX-E09
+
+X-Source-Edition: 13_Management_Evidence_EN.docx
+
+X-Fictional-Clarification: yes
+
+X-Thread-ID: close
+
+In-Reply-To: <finctx-e03.email.en@contoso.example>
+
+References: <finctx-e01.email.en@contoso.example> <finctx-e03.email.en@contoso.example>
+
+MIME-Version: 1.0
+
+Content-Type: multipart/alternative; boundary="fictional-en-finctx-e09-alternative"
+
+
+
+----- BODY TEXT / ISI TEKS -----
+
+ORIGINAL SYNTHETIC TRAINING CASE. All people, communications, figures and approvals are fictional. Created locally, not sent, imported or retrieved from Microsoft 365. Not company operating records.
+
+Source ID: FINCTX-E09. Added fictional clarification reply for this briefing exercise, not an original FINCTX excerpt. No new approval.
+
+Fictional reply to FINCTX-E03.
+
+Thank you, Maya. I will use FINCTX-E03 as the change in source status and retain FINCTX-E01 as the earlier intake warning, rather than treat the warning as a reason to reject the now-approved release. I understand that the controller adjustments are already included and must not be posted again. For my operating commentary I will keep production, sales and stock movements distinct. The recurring pump questions in FINCTX-E02 still need event-level evidence; source release approval does not close them. Please keep the July snapshot and original budget fixed while the team reconciles the applied update. This acknowledgement is not sign-off on the model, a category change or a project payment.
+
+----- END EMAIL FINCTX-E09 -----
+
+================ THREAD / UTAS: PAYMENT ================
+
+----- BEGIN EMAIL FINCTX-E05 -----
+
+Date: Sat, 05 Sep 2026 10:40:00 +0800
+
+From: Dimas Wicaksono <dimas.wicaksono@contoso.example>
+
+To: Arman Pradipta <arman.pradipta@contoso.example>
+
+Subject: [Fictional] S03 optional project payment proposal
+
+Message-ID: <finctx-e05.email.en@contoso.example>
+
+X-Synthetic-Training-Case: original-fictional-local-not-sent
+
+X-Evidence-ID: FINCTX-E05
+
+X-Source-Edition: 13_Management_Evidence_EN.docx
+
+X-Fictional-Clarification: no
+
+X-Thread-ID: payment
+
+MIME-Version: 1.0
+
+Content-Type: multipart/alternative; boundary="fictional-en-finctx-e05-alternative"
+
+
+
+----- BODY TEXT / ISI TEKS -----
+
+ORIGINAL SYNTHETIC TRAINING CASE. All people, communications, figures and approvals are fictional. Created locally, not sent, imported or retrieved from Microsoft 365. Not company operating records.
+
+Source ID: FINCTX-E05. Original synthetic source body retained verbatim from 13_Management_Evidence_EN.docx.
+
+Dimas Wicaksono → Arman Pradipta · New proposal: optional project payment
+
+I propose that we assess an additional optional USD 5,000,000 payment for the S03 next-stage project package before year-end. This is a new proposal, not a statement that it is already in the commitment register or the baseline payment schedule. I would like the board to understand the trade-off between preserving the expansion reserve and potentially enabling the next stage. I do not have an approved engineering package or the required contractor progress certificate in this pack. Please do not interpret lower spend as proof of physical completion. My request is for a conditional decision paper and evidence checklist; no one should instruct treasury to pay from this message or record a second copy of an existing commitment.
+
+----- END EMAIL FINCTX-E05 -----
+
+----- BEGIN EMAIL FINCTX-E06 -----
+
+Date: Sun, 06 Sep 2026 14:10:00 +0800
+
+From: Nadia Kusuma <nadia.kusuma@contoso.example>
+
+To: Dimas Wicaksono <dimas.wicaksono@contoso.example>, Arman Pradipta <arman.pradipta@contoso.example>
+
+Subject: Re: [Fictional] S03 optional project payment proposal
+
+Message-ID: <finctx-e06.email.en@contoso.example>
+
+X-Synthetic-Training-Case: original-fictional-local-not-sent
+
+X-Evidence-ID: FINCTX-E06
+
+X-Source-Edition: 13_Management_Evidence_EN.docx
+
+X-Fictional-Clarification: no
+
+X-Thread-ID: payment
+
+In-Reply-To: <finctx-e05.email.en@contoso.example>
+
+References: <finctx-e05.email.en@contoso.example>
+
+MIME-Version: 1.0
+
+Content-Type: multipart/alternative; boundary="fictional-en-finctx-e06-alternative"
+
+
+
+----- BODY TEXT / ISI TEKS -----
+
+ORIGINAL SYNTHETIC TRAINING CASE. All people, communications, figures and approvals are fictional. Created locally, not sent, imported or retrieved from Microsoft 365. Not company operating records.
+
+Source ID: FINCTX-E06. Original synthetic source body retained verbatim from 13_Management_Evidence_EN.docx.
+
+Nadia Kusuma → Dimas Wicaksono and Arman Pradipta · Reply to FINCTX-E05: reserve test
+
+I support testing the proposal, not releasing it now. Model_Rules R07 and the DecemberCashThreshold parameter set a USD 45,000,000 internal planning floor for December group cash. It is not a debt covenant. For an initial comparison, show a separate case with the extra USD 5,000,000 paid in December and all other cash assumptions unchanged, alongside the case without it. Identify the new payment explicitly so it is not silently included twice. There is no approved financing offset in this evidence. We still need the actual pay date, the relevant package and component mapping, and release authority. A group reserve above the floor would not by itself certify engineering readiness or authorize a transfer.
+
+----- END EMAIL FINCTX-E06 -----
+
+----- BEGIN EMAIL FINCTX-E10 -----
+
+Date: Sun, 06 Sep 2026 14:40:00 +0800
+
+From: Arman Pradipta <arman.pradipta@contoso.example>
+
+To: Nadia Kusuma <nadia.kusuma@contoso.example>, Dimas Wicaksono <dimas.wicaksono@contoso.example>
+
+Subject: Re: [Fictional] S03 optional project payment proposal
+
+Message-ID: <finctx-e10.email.en@contoso.example>
+
+X-Synthetic-Training-Case: original-fictional-local-not-sent
+
+X-Evidence-ID: FINCTX-E10
+
+X-Source-Edition: 13_Management_Evidence_EN.docx
+
+X-Fictional-Clarification: yes
+
+X-Thread-ID: payment
+
+In-Reply-To: <finctx-e06.email.en@contoso.example>
+
+References: <finctx-e05.email.en@contoso.example> <finctx-e06.email.en@contoso.example>
+
+MIME-Version: 1.0
+
+Content-Type: multipart/alternative; boundary="fictional-en-finctx-e10-alternative"
+
+
+
+----- BODY TEXT / ISI TEKS -----
+
+ORIGINAL SYNTHETIC TRAINING CASE. All people, communications, figures and approvals are fictional. Created locally, not sent, imported or retrieved from Microsoft 365. Not company operating records.
+
+Source ID: FINCTX-E10. Added fictional clarification reply for this briefing exercise, not an original FINCTX excerpt. No new approval.
+
+Fictional reply to FINCTX-E06.
+
+Nadia and Dimas, prepare the conditional assessment on the basis described in FINCTX-E05 and FINCTX-E06. Keep a reviewed case without the optional payment beside the separately identified December test case, without changing other cash assumptions or adding a financing offset. A reserve test is not a payment instruction and cannot substitute for the engineering package, contractor progress certificate or package mapping. Please retain the proposal label and show which evidence is missing and who owns it. Bring the disagreements to the close and liquidity discussion rather than presenting an agreed conclusion. This reply requests analysis only; it does not approve a revised forecast, reclassification, stage-gate release or payment date.
+
+----- END EMAIL FINCTX-E10 -----
+
+================ THREAD / UTAS: REVIEW ================
+
+----- BEGIN EMAIL FINCTX-E08 -----
+
+Date: Wed, 09 Sep 2026 07:40:00 +0800
+
+From: Maya Hartono <maya.hartono@contoso.example>
+
+To: Arman Pradipta <arman.pradipta@contoso.example>, Dimas Wicaksono <dimas.wicaksono@contoso.example>, Nadia Kusuma <nadia.kusuma@contoso.example>
+
+Subject: Re: [Fictional] Close and liquidity morning review
+
+Message-ID: <finctx-e08.email.en@contoso.example>
+
+X-Synthetic-Training-Case: original-fictional-local-not-sent
+
+X-Evidence-ID: FINCTX-E08
+
+X-Source-Edition: 13_Management_Evidence_EN.docx
+
+X-Fictional-Clarification: no
+
+X-Thread-ID: review
+
+In-Reply-To: <finctx-e07.teams.en@contoso.example>
+
+References: <finctx-e07.teams.en@contoso.example>
+
+MIME-Version: 1.0
+
+Content-Type: multipart/alternative; boundary="fictional-en-finctx-e08-alternative"
+
+
+
+----- BODY TEXT / ISI TEKS -----
+
+ORIGINAL SYNTHETIC TRAINING CASE. All people, communications, figures and approvals are fictional. Created locally, not sent, imported or retrieved from Microsoft 365. Not company operating records.
+
+Source ID: FINCTX-E08. Original synthetic source body retained verbatim from 13_Management_Evidence_EN.docx.
+
+Maya Hartono → Arman Pradipta, Dimas Wicaksono and Nadia Kusuma · Reply to FINCTX-E07
+
+The 08:30 close and liquidity review will use the evidence frozen at 08:00 today in this simulation. The financial cut-off remains 31 August, so the September dates on discussions and revisions do not create September actual financial results. Please bring the approved source certificates, the retained before-review model, and the operational history with its source IDs. My proposed order is release completeness, gold and cost bridges, forecast review, then the optional project payment. Any board or weekly pack must carry unresolved questions and approval status, not just a favorable headline. The shortened record of the missed meeting is attached in this same pack. It is a synthetic briefing record, not a recovered Microsoft 365 transcript or a substitute for approval.
+
+Packaging note: the source refers to the missed-meeting record in the same pack. It is supplied as 01_Meeting_Minutes_EN.docx, not a MIME attachment. In-Reply-To points to the synthetic FINCTX-E07 Teams bridge ID listed in Teams_Thread_EN.txt.
+
+----- END EMAIL FINCTX-E08 -----
+
+----- BEGIN EMAIL FINCTX-E11 -----
+
+Date: Wed, 09 Sep 2026 07:50:00 +0800
+
+From: Arman Pradipta <arman.pradipta@contoso.example>
+
+To: Maya Hartono <maya.hartono@contoso.example>, Dimas Wicaksono <dimas.wicaksono@contoso.example>, Nadia Kusuma <nadia.kusuma@contoso.example>
+
+Subject: Re: [Fictional] Close and liquidity morning review
+
+Message-ID: <finctx-e11.email.en@contoso.example>
+
+X-Synthetic-Training-Case: original-fictional-local-not-sent
+
+X-Evidence-ID: FINCTX-E11
+
+X-Source-Edition: 13_Management_Evidence_EN.docx
+
+X-Fictional-Clarification: yes
+
+X-Thread-ID: review
+
+In-Reply-To: <finctx-e08.email.en@contoso.example>
+
+References: <finctx-e07.teams.en@contoso.example> <finctx-e08.email.en@contoso.example>
+
+MIME-Version: 1.0
+
+Content-Type: multipart/alternative; boundary="fictional-en-finctx-e11-alternative"
+
+
+
+----- BODY TEXT / ISI TEKS -----
+
+ORIGINAL SYNTHETIC TRAINING CASE. All people, communications, figures and approvals are fictional. Created locally, not sent, imported or retrieved from Microsoft 365. Not company operating records.
+
+Source ID: FINCTX-E11. Added fictional clarification reply for this briefing exercise, not an original FINCTX excerpt. No new approval.
+
+Fictional reply to FINCTX-E08.
+
+Confirmed for the review, Maya. Lead with what is approved at source and what is still awaiting review, then use the order in FINCTX-E08. Keep the five challenged claims from FINCTX-E07 visible alongside the evidence that supports or challenges each one. The actions recorded in FINCTX-M01 remain requests for reconciliation, operating and project evidence, and cash testing, not approvals. If the evidence is incomplete at the freeze, show the gap and owner explicitly rather than infer a favorable result. The briefing should distinguish the retained before-review claim from any independently checked calculation. This is an agenda acknowledgement only; it does not pre-approve the meeting outcomes or authorize treasury to act.
+
+----- END EMAIL FINCTX-E11 -----

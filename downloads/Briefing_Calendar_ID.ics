@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+PRODID:-//Contoso Example//Original Synthetic Daily Briefing//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Asia/Singapore
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:SGT
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:finctx-m01.id@contoso.example
+DTSTAMP:20260909T000000Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Singapore:20260907T150000
+DTEND;TZID=Asia/Singapore:20260907T153000
+SUMMARY:[Fiktif] Rapat terlewat penutupan dan likuiditas
+DESCRIPTION:KASUS PELATIHAN SINTETIS ASLI. Semua orang\, komunikasi\, angka
+ \, dan persetujuan bersifat fiktif. Dibuat secara lokal\, tidak dikirim\, 
+ diimpor\, atau diambil dari Microsoft 365. Bukan catatan operasi perusahaa
+ n.\nSnapshot simulasi: 9 September 2026\, 08:00 LOKAL (Singapura\, UTC+08:
+ 00). Batas pencatatan keuangan: 31 Agustus 2026\, 23:59:59 LOKAL. Tanggal 
+ ini fiktif\, bukan tanggal saat ini.\nCatatan sintetis asli FINCTX-M01. Ke
+ tua: Arman Pradipta\; peserta: Maya Hartono\, Dimas Wicaksono\, Nadia Kusu
+ ma. Bahas persetujuan sumber versus klaim model\, pengulangan operasi\, wa
+ ktu kas\, dan pembayaran S03 opsional. Hanya tindak lanjut kerja: Maya mer
+ ekonsiliasi\; Dimas mengumpulkan bukti operasi dan proyek\; Nadia menguji 
+ skenario kas. Tidak ada prakiraan baru\, reklasifikasi\, pelepasan tahap\,
+  atau pembayaran yang disetujui. Lihat 01_Meeting_Minutes_ID.docx.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+X-EVIDENCE-ID:FINCTX-M01
+END:VEVENT
+BEGIN:VEVENT
+UID:finctx-c01.id@contoso.example
+DTSTAMP:20260909T000000Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Singapore:20260909T083000
+DTEND;TZID=Asia/Singapore:20260909T090000
+SUMMARY:[Fiktif] Penelaahan pagi penutupan dan likuiditas
+DESCRIPTION:KASUS PELATIHAN SINTETIS ASLI. Semua orang\, komunikasi\, angka
+ \, dan persetujuan bersifat fiktif. Dibuat secara lokal\, tidak dikirim\, 
+ diimpor\, atau diambil dari Microsoft 365. Bukan catatan operasi perusahaa
+ n.\nSnapshot simulasi: 9 September 2026\, 08:00 LOKAL (Singapura\, UTC+08:
+ 00). Batas pencatatan keuangan: 31 Agustus 2026\, 23:59:59 LOKAL. Tanggal 
+ ini fiktif\, bukan tanggal saat ini.\nPenelaahan direncanakan\, belum berl
+ angsung pada snapshot beku. ID kalender turunan FINCTX-C01\; sumber agenda
+  FINCTX-E08 dan bagian 02 dalam 13_Management_Evidence_ID.docx. 08:30 Maya
+ : kelengkapan rilis\; 08:38 Maya / Dimas: rekonsiliasi emas dan biaya\; 08
+ :46 Nadia: prakiraan likuiditas Desember belum disetujui\; 08:54 Arman / D
+ imas: tahap S03 terhambat dan usulan pembayaran. Bawa sertifikat disetujui
+ \, model sebelum penelaahan\, riwayat operasi\, dan register keputusan ber
+ isi pemilik/bukti. Tidak menyiratkan hasil rapat atau kewenangan pembayara
+ n.
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+X-EVIDENCE-ID:FINCTX-C01
+END:VEVENT
+END:VCALENDAR

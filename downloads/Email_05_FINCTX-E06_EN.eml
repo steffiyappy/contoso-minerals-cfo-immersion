@@ -1,0 +1,66 @@
+Date: Sun, 06 Sep 2026 14:10:00 +0800
+From: Nadia Kusuma <nadia.kusuma@contoso.example>
+To: Dimas Wicaksono <dimas.wicaksono@contoso.example>,
+ Arman Pradipta <arman.pradipta@contoso.example>
+Subject: Re: [Fictional] S03 optional project payment proposal
+Message-ID: <finctx-e06.email.en@contoso.example>
+X-Synthetic-Training-Case: original-fictional-local-not-sent
+X-Evidence-ID: FINCTX-E06
+X-Source-Edition: 13_Management_Evidence_EN.docx
+X-Fictional-Clarification: no
+X-Thread-ID: payment
+In-Reply-To: <finctx-e05.email.en@contoso.example>
+References: <finctx-e05.email.en@contoso.example>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="fictional-en-finctx-e06-alternative"
+
+--fictional-en-finctx-e06-alternative
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+ORIGINAL SYNTHETIC TRAINING CASE. All people, communications, figures and app=
+rovals are fictional. Created locally, not sent, imported or retrieved from M=
+icrosoft 365. Not company operating records.
+
+Source ID: FINCTX-E06. Original synthetic source body retained verbatim from =
+13_Management_Evidence_EN.docx.
+
+Nadia Kusuma =E2=86=92 Dimas Wicaksono and Arman Pradipta =C2=B7 Reply to FIN=
+CTX-E05: reserve test
+
+I support testing the proposal, not releasing it now. Model_Rules R07 and the=
+ DecemberCashThreshold parameter set a USD 45,000,000 internal planning floor=
+ for December group cash. It is not a debt covenant. For an initial compariso=
+n, show a separate case with the extra USD 5,000,000 paid in December and all=
+ other cash assumptions unchanged, alongside the case without it. Identify th=
+e new payment explicitly so it is not silently included twice. There is no ap=
+proved financing offset in this evidence. We still need the actual pay date, =
+the relevant package and component mapping, and release authority. A group re=
+serve above the floor would not by itself certify engineering readiness or au=
+thorize a transfer.
+
+--fictional-en-finctx-e06-alternative
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<!DOCTYPE html><html lang=3D"en"><head><meta charset=3D"utf-8"><title>Re: [Fi=
+ctional] S03 optional project payment proposal</title></head><body><p>ORIGINA=
+L SYNTHETIC TRAINING CASE. All people, communications, figures and approvals =
+are fictional. Created locally, not sent, imported or retrieved from Microsof=
+t 365. Not company operating records.</p><p>Source ID: FINCTX-E06. Original s=
+ynthetic source body retained verbatim from 13_Management_Evidence_EN.docx.</=
+p><p>Nadia Kusuma =E2=86=92 Dimas Wicaksono and Arman Pradipta =C2=B7 Reply t=
+o FINCTX-E05: reserve test</p><p>I support testing the proposal, not releasin=
+g it now. Model_Rules R07 and the DecemberCashThreshold parameter set a USD 4=
+5,000,000 internal planning floor for December group cash. It is not a debt c=
+ovenant. For an initial comparison, show a separate case with the extra USD 5=
+,000,000 paid in December and all other cash assumptions unchanged, alongside=
+ the case without it. Identify the new payment explicitly so it is not silent=
+ly included twice. There is no approved financing offset in this evidence. We=
+ still need the actual pay date, the relevant package and component mapping, =
+and release authority. A group reserve above the floor would not by itself ce=
+rtify engineering readiness or authorize a transfer.</p></body></html>
+
+--fictional-en-finctx-e06-alternative--

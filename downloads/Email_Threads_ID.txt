@@ -1,0 +1,357 @@
+KASUS PELATIHAN SINTETIS ASLI. Semua orang, komunikasi, angka, dan persetujuan bersifat fiktif. Dibuat secara lokal, tidak dikirim, diimpor, atau diambil dari Microsoft 365. Bukan catatan operasi perusahaan.
+
+Snapshot simulasi: 9 September 2026, 08:00 LOKAL (Singapura, UTC+08:00). Batas pencatatan keuangan: 31 Agustus 2026, 23:59:59 LOKAL. Tanggal ini fiktif, bukan tanggal saat ini.
+
+Seluruh 8 pesan EML lokal disalin lengkap di bawah, dalam 3 utas. Gunakan TXT ini jika antarmuka menolak EML; dukungan EML langsung tidak diasumsikan. ID lintas kanal sintetis bukan header pengiriman yang ditemukan kembali.
+
+================ THREAD / UTAS: CLOSE ================
+
+----- BEGIN EMAIL FINCTX-E01 -----
+
+Date: Tue, 01 Sep 2026 09:10:00 +0800
+
+From: Maya Hartono <maya.hartono@contoso.example>
+
+To: Arman Pradipta <arman.pradipta@contoso.example>, Dimas Wicaksono <dimas.wicaksono@contoso.example>, Nadia Kusuma <nadia.kusuma@contoso.example>
+
+Subject: [Fiktif] Penerimaan penutupan Agustus dan rilis sumber
+
+Message-ID: <finctx-e01.email.id@contoso.example>
+
+X-Synthetic-Training-Case: original-fictional-local-not-sent
+
+X-Evidence-ID: FINCTX-E01
+
+X-Source-Edition: 13_Management_Evidence_ID.docx
+
+X-Fictional-Clarification: no
+
+X-Thread-ID: close
+
+MIME-Version: 1.0
+
+Content-Type: multipart/alternative; boundary="fictional-id-finctx-e01-alternative"
+
+
+
+----- BODY TEXT / ISI TEKS -----
+
+KASUS PELATIHAN SINTETIS ASLI. Semua orang, komunikasi, angka, dan persetujuan bersifat fiktif. Dibuat secara lokal, tidak dikirim, diimpor, atau diambil dari Microsoft 365. Bukan catatan operasi perusahaan.
+
+ID sumber: FINCTX-E01. Isi sumber sintetis asli dipertahankan persis dari 13_Management_Evidence_ID.docx.
+
+Maya Hartono → Arman Pradipta, Dimas Wicaksono, dan Nadia Kusuma · Penerimaan data penutupan Agustus
+
+Mohon pisahkan data Agustus yang masuk dari model manajemen yang sudah ada. Model masih memperlakukan Agustus sebagai prakiraan, dan lembar kerja yang tampak rapi bukan berarti sudah disetujui controller. Data yang masuk mencakup unggahan berulang serta beberapa item yang statusnya perlu diselesaikan. Tim saya sedang menyiapkan daftar peristiwa yang disetujui dan sertifikat per lokasi serta akun; sebelum rilis tersedia, jangan menyebut seluruh unggahan sebagai realisasi Agustus. Untuk pembahasan penutupan, saya membutuhkan pemisahan pendapatan faktur, biaya operasi, belanja modal pengembangan, dan mutasi bank. Faktur dapat dicatat sebelum dibayar, sedangkan komitmen pembelian bukan beban tambahan. Simpan versi yang diajukan agar setiap perubahan berikutnya dapat dijelaskan tanpa menimpa riwayat.
+
+----- END EMAIL FINCTX-E01 -----
+
+----- BEGIN EMAIL FINCTX-E03 -----
+
+Date: Thu, 03 Sep 2026 17:00:00 +0800
+
+From: Maya Hartono <maya.hartono@contoso.example>
+
+To: Arman Pradipta <arman.pradipta@contoso.example>, Dimas Wicaksono <dimas.wicaksono@contoso.example>, Nadia Kusuma <nadia.kusuma@contoso.example>
+
+Subject: Re: [Fiktif] Penerimaan penutupan Agustus dan rilis sumber
+
+Message-ID: <finctx-e03.email.id@contoso.example>
+
+X-Synthetic-Training-Case: original-fictional-local-not-sent
+
+X-Evidence-ID: FINCTX-E03
+
+X-Source-Edition: 13_Management_Evidence_ID.docx
+
+X-Fictional-Clarification: no
+
+X-Thread-ID: close
+
+In-Reply-To: <finctx-e01.email.id@contoso.example>
+
+References: <finctx-e01.email.id@contoso.example>
+
+MIME-Version: 1.0
+
+Content-Type: multipart/alternative; boundary="fictional-id-finctx-e03-alternative"
+
+
+
+----- BODY TEXT / ISI TEKS -----
+
+KASUS PELATIHAN SINTETIS ASLI. Semua orang, komunikasi, angka, dan persetujuan bersifat fiktif. Dibuat secara lokal, tidak dikirim, diimpor, atau diambil dari Microsoft 365. Bukan catatan operasi perusahaan.
+
+ID sumber: FINCTX-E03. Isi sumber sintetis asli dipertahankan persis dari 13_Management_Evidence_ID.docx.
+
+Maya Hartono → Kelompok kerja penutupan · Balasan FINCTX-E01: sumber disetujui tersedia
+
+FIN-REL-2026-08-v1 kini menjadi rilis sumber sintetis yang disetujui. Pilihan Agustus berisi 2.952 peristiwa bisnis yang disetujui; 19 baris unggahan yang ditahan bukan tambahan pada realisasi tersebut. Ikuti Approved_Batches dan keluarkan aplikasi pembayaran masa depan yang masih terjadwal dari bulan yang telah ditutup. Penyesuaian yang didukung controller mencakup akrual pemeliharaan S01 sebesar USD 12.500, kredit listrik S02 sebesar USD 3.400, dan akrual tonggak desain S03 sebesar USD 8.250. Nilai tersebut sudah tercakup dalam sumber disetujui; narasi penjelasannya bukan izin untuk membukukan ulang. Rilis menyetujui catatan sumber, bukan rumus dalam model manajemen atau pembayaran ekspansi. Pertahankan snapshot Juli dan anggaran semula selama pembaruan dilakukan.
+
+----- END EMAIL FINCTX-E03 -----
+
+----- BEGIN EMAIL FINCTX-E09 -----
+
+Date: Thu, 03 Sep 2026 17:25:00 +0800
+
+From: Dimas Wicaksono <dimas.wicaksono@contoso.example>
+
+To: Maya Hartono <maya.hartono@contoso.example>, Arman Pradipta <arman.pradipta@contoso.example>, Nadia Kusuma <nadia.kusuma@contoso.example>
+
+Subject: Re: [Fiktif] Penerimaan penutupan Agustus dan rilis sumber
+
+Message-ID: <finctx-e09.email.id@contoso.example>
+
+X-Synthetic-Training-Case: original-fictional-local-not-sent
+
+X-Evidence-ID: FINCTX-E09
+
+X-Source-Edition: 13_Management_Evidence_ID.docx
+
+X-Fictional-Clarification: yes
+
+X-Thread-ID: close
+
+In-Reply-To: <finctx-e03.email.id@contoso.example>
+
+References: <finctx-e01.email.id@contoso.example> <finctx-e03.email.id@contoso.example>
+
+MIME-Version: 1.0
+
+Content-Type: multipart/alternative; boundary="fictional-id-finctx-e09-alternative"
+
+
+
+----- BODY TEXT / ISI TEKS -----
+
+KASUS PELATIHAN SINTETIS ASLI. Semua orang, komunikasi, angka, dan persetujuan bersifat fiktif. Dibuat secara lokal, tidak dikirim, diimpor, atau diambil dari Microsoft 365. Bukan catatan operasi perusahaan.
+
+ID sumber: FINCTX-E09. Balasan klarifikasi fiktif tambahan untuk latihan pengarahan ini, bukan cuplikan FINCTX asli. Tidak ada persetujuan baru.
+
+Balasan fiktif atas FINCTX-E03.
+
+Terima kasih, Maya. Saya akan menggunakan FINCTX-E03 sebagai perubahan status sumber dan mempertahankan FINCTX-E01 sebagai peringatan penerimaan data sebelumnya, bukan menjadikan peringatan itu alasan menolak rilis yang kini disetujui. Saya memahami bahwa penyesuaian controller sudah tercakup dan tidak boleh dibukukan lagi. Untuk komentar operasi, saya akan memisahkan produksi, penjualan, dan pergerakan persediaan. Pertanyaan pompa berulang dalam FINCTX-E02 masih memerlukan bukti tingkat peristiwa; persetujuan rilis sumber tidak menutupnya. Mohon pertahankan snapshot Juli dan anggaran awal saat tim merekonsiliasi pembaruan yang diterapkan. Konfirmasi ini bukan persetujuan model, perubahan kategori, atau pembayaran proyek.
+
+----- END EMAIL FINCTX-E09 -----
+
+================ THREAD / UTAS: PAYMENT ================
+
+----- BEGIN EMAIL FINCTX-E05 -----
+
+Date: Sat, 05 Sep 2026 10:40:00 +0800
+
+From: Dimas Wicaksono <dimas.wicaksono@contoso.example>
+
+To: Arman Pradipta <arman.pradipta@contoso.example>
+
+Subject: [Fiktif] Usulan pembayaran proyek opsional S03
+
+Message-ID: <finctx-e05.email.id@contoso.example>
+
+X-Synthetic-Training-Case: original-fictional-local-not-sent
+
+X-Evidence-ID: FINCTX-E05
+
+X-Source-Edition: 13_Management_Evidence_ID.docx
+
+X-Fictional-Clarification: no
+
+X-Thread-ID: payment
+
+MIME-Version: 1.0
+
+Content-Type: multipart/alternative; boundary="fictional-id-finctx-e05-alternative"
+
+
+
+----- BODY TEXT / ISI TEKS -----
+
+KASUS PELATIHAN SINTETIS ASLI. Semua orang, komunikasi, angka, dan persetujuan bersifat fiktif. Dibuat secara lokal, tidak dikirim, diimpor, atau diambil dari Microsoft 365. Bukan catatan operasi perusahaan.
+
+ID sumber: FINCTX-E05. Isi sumber sintetis asli dipertahankan persis dari 13_Management_Evidence_ID.docx.
+
+Dimas Wicaksono → Arman Pradipta · Usulan baru: pembayaran proyek opsional
+
+Saya mengusulkan penilaian atas tambahan pembayaran opsional USD 5.000.000 untuk paket tahap berikutnya di proyek S03 sebelum akhir tahun. Ini usulan baru, bukan pernyataan bahwa pembayaran sudah ada dalam daftar komitmen atau jadwal pembayaran baseline. Saya ingin dewan memahami pilihan antara mempertahankan cadangan ekspansi dan kemungkinan mendukung tahap berikutnya. Dalam paket ini saya belum memiliki paket rekayasa yang disetujui maupun sertifikat kemajuan kontraktor yang diperlukan. Jangan menafsirkan belanja lebih rendah sebagai bukti penyelesaian fisik. Yang saya minta adalah kertas keputusan bersyarat dan daftar bukti; tidak seorang pun boleh menginstruksikan treasury membayar berdasarkan pesan ini atau mencatat salinan kedua dari komitmen yang telah ada.
+
+----- END EMAIL FINCTX-E05 -----
+
+----- BEGIN EMAIL FINCTX-E06 -----
+
+Date: Sun, 06 Sep 2026 14:10:00 +0800
+
+From: Nadia Kusuma <nadia.kusuma@contoso.example>
+
+To: Dimas Wicaksono <dimas.wicaksono@contoso.example>, Arman Pradipta <arman.pradipta@contoso.example>
+
+Subject: Re: [Fiktif] Usulan pembayaran proyek opsional S03
+
+Message-ID: <finctx-e06.email.id@contoso.example>
+
+X-Synthetic-Training-Case: original-fictional-local-not-sent
+
+X-Evidence-ID: FINCTX-E06
+
+X-Source-Edition: 13_Management_Evidence_ID.docx
+
+X-Fictional-Clarification: no
+
+X-Thread-ID: payment
+
+In-Reply-To: <finctx-e05.email.id@contoso.example>
+
+References: <finctx-e05.email.id@contoso.example>
+
+MIME-Version: 1.0
+
+Content-Type: multipart/alternative; boundary="fictional-id-finctx-e06-alternative"
+
+
+
+----- BODY TEXT / ISI TEKS -----
+
+KASUS PELATIHAN SINTETIS ASLI. Semua orang, komunikasi, angka, dan persetujuan bersifat fiktif. Dibuat secara lokal, tidak dikirim, diimpor, atau diambil dari Microsoft 365. Bukan catatan operasi perusahaan.
+
+ID sumber: FINCTX-E06. Isi sumber sintetis asli dipertahankan persis dari 13_Management_Evidence_ID.docx.
+
+Nadia Kusuma → Dimas Wicaksono dan Arman Pradipta · Balasan FINCTX-E05: pengujian cadangan
+
+Saya mendukung pengujian usulan, bukan pencairan sekarang. Model_Rules R07 dan parameter DecemberCashThreshold menetapkan batas perencanaan internal sebesar USD 45.000.000 untuk kas grup pada Desember. Ini bukan kovenan utang. Untuk perbandingan awal, tampilkan skenario terpisah dengan tambahan USD 5.000.000 dibayar pada Desember dan seluruh asumsi kas lainnya tetap, berdampingan dengan skenario tanpa pembayaran tersebut. Tandai pembayaran baru secara jelas agar tidak diam-diam dihitung dua kali. Bukti ini tidak mencakup pendanaan pengganti yang disetujui. Kita masih memerlukan tanggal pembayaran aktual, pemetaan paket serta komponen terkait, dan kewenangan pencairan. Cadangan grup di atas batas minimum tidak dengan sendirinya mengesahkan kesiapan rekayasa atau memberikan izin transfer.
+
+----- END EMAIL FINCTX-E06 -----
+
+----- BEGIN EMAIL FINCTX-E10 -----
+
+Date: Sun, 06 Sep 2026 14:40:00 +0800
+
+From: Arman Pradipta <arman.pradipta@contoso.example>
+
+To: Nadia Kusuma <nadia.kusuma@contoso.example>, Dimas Wicaksono <dimas.wicaksono@contoso.example>
+
+Subject: Re: [Fiktif] Usulan pembayaran proyek opsional S03
+
+Message-ID: <finctx-e10.email.id@contoso.example>
+
+X-Synthetic-Training-Case: original-fictional-local-not-sent
+
+X-Evidence-ID: FINCTX-E10
+
+X-Source-Edition: 13_Management_Evidence_ID.docx
+
+X-Fictional-Clarification: yes
+
+X-Thread-ID: payment
+
+In-Reply-To: <finctx-e06.email.id@contoso.example>
+
+References: <finctx-e05.email.id@contoso.example> <finctx-e06.email.id@contoso.example>
+
+MIME-Version: 1.0
+
+Content-Type: multipart/alternative; boundary="fictional-id-finctx-e10-alternative"
+
+
+
+----- BODY TEXT / ISI TEKS -----
+
+KASUS PELATIHAN SINTETIS ASLI. Semua orang, komunikasi, angka, dan persetujuan bersifat fiktif. Dibuat secara lokal, tidak dikirim, diimpor, atau diambil dari Microsoft 365. Bukan catatan operasi perusahaan.
+
+ID sumber: FINCTX-E10. Balasan klarifikasi fiktif tambahan untuk latihan pengarahan ini, bukan cuplikan FINCTX asli. Tidak ada persetujuan baru.
+
+Balasan fiktif atas FINCTX-E06.
+
+Nadia dan Dimas, siapkan penilaian bersyarat dengan dasar yang dijelaskan dalam FINCTX-E05 dan FINCTX-E06. Tampilkan skenario yang sudah ditelaah tanpa pembayaran opsional di samping skenario uji Desember yang diberi label terpisah, tanpa mengubah asumsi kas lain atau menambahkan pendanaan pengganti. Pengujian cadangan bukan instruksi pembayaran dan tidak dapat menggantikan paket rekayasa, sertifikat kemajuan kontraktor, atau pemetaan paket. Pertahankan label usulan serta tunjukkan bukti yang belum tersedia dan pemiliknya. Bawa perbedaan pendapat ke pembahasan penutupan dan likuiditas, bukan menyajikan kesimpulan yang seolah disepakati. Balasan ini hanya meminta analisis; tidak menyetujui prakiraan baru, reklasifikasi, pelepasan tahap, atau tanggal pembayaran.
+
+----- END EMAIL FINCTX-E10 -----
+
+================ THREAD / UTAS: REVIEW ================
+
+----- BEGIN EMAIL FINCTX-E08 -----
+
+Date: Wed, 09 Sep 2026 07:40:00 +0800
+
+From: Maya Hartono <maya.hartono@contoso.example>
+
+To: Arman Pradipta <arman.pradipta@contoso.example>, Dimas Wicaksono <dimas.wicaksono@contoso.example>, Nadia Kusuma <nadia.kusuma@contoso.example>
+
+Subject: Re: [Fiktif] Penelaahan pagi penutupan dan likuiditas
+
+Message-ID: <finctx-e08.email.id@contoso.example>
+
+X-Synthetic-Training-Case: original-fictional-local-not-sent
+
+X-Evidence-ID: FINCTX-E08
+
+X-Source-Edition: 13_Management_Evidence_ID.docx
+
+X-Fictional-Clarification: no
+
+X-Thread-ID: review
+
+In-Reply-To: <finctx-e07.teams.id@contoso.example>
+
+References: <finctx-e07.teams.id@contoso.example>
+
+MIME-Version: 1.0
+
+Content-Type: multipart/alternative; boundary="fictional-id-finctx-e08-alternative"
+
+
+
+----- BODY TEXT / ISI TEKS -----
+
+KASUS PELATIHAN SINTETIS ASLI. Semua orang, komunikasi, angka, dan persetujuan bersifat fiktif. Dibuat secara lokal, tidak dikirim, diimpor, atau diambil dari Microsoft 365. Bukan catatan operasi perusahaan.
+
+ID sumber: FINCTX-E08. Isi sumber sintetis asli dipertahankan persis dari 13_Management_Evidence_ID.docx.
+
+Maya Hartono → Arman Pradipta, Dimas Wicaksono, dan Nadia Kusuma · Balasan FINCTX-E07
+
+Penelaahan penutupan dan likuiditas pukul 08:30 akan menggunakan bukti yang dibekukan pukul 08:00 hari ini dalam simulasi. Batas pencatatan keuangan tetap 31 Agustus; tanggal September pada diskusi dan revisi tidak menciptakan realisasi keuangan September. Bawa sertifikat sumber disetujui, model sebelum penelaahan yang dipertahankan, serta riwayat operasi beserta ID sumbernya. Urutan yang saya usulkan ialah kelengkapan rilis, rekonsiliasi emas dan biaya, penelaahan prakiraan, lalu pembayaran proyek opsional. Paket dewan atau mingguan harus memuat pertanyaan terbuka dan status persetujuan, bukan hanya judul yang menguntungkan. Catatan singkat rapat yang terlewat ada dalam paket yang sama. Ini catatan pengarahan sintetis, bukan transkrip Microsoft 365 yang ditemukan kembali atau pengganti persetujuan.
+
+Catatan pengemasan: sumber merujuk catatan rapat terlewat dalam paket yang sama. Catatan tersedia sebagai 01_Meeting_Minutes_ID.docx, bukan lampiran MIME. In-Reply-To menunjuk ID penghubung Teams sintetis FINCTX-E07 dalam Teams_Thread_ID.txt.
+
+----- END EMAIL FINCTX-E08 -----
+
+----- BEGIN EMAIL FINCTX-E11 -----
+
+Date: Wed, 09 Sep 2026 07:50:00 +0800
+
+From: Arman Pradipta <arman.pradipta@contoso.example>
+
+To: Maya Hartono <maya.hartono@contoso.example>, Dimas Wicaksono <dimas.wicaksono@contoso.example>, Nadia Kusuma <nadia.kusuma@contoso.example>
+
+Subject: Re: [Fiktif] Penelaahan pagi penutupan dan likuiditas
+
+Message-ID: <finctx-e11.email.id@contoso.example>
+
+X-Synthetic-Training-Case: original-fictional-local-not-sent
+
+X-Evidence-ID: FINCTX-E11
+
+X-Source-Edition: 13_Management_Evidence_ID.docx
+
+X-Fictional-Clarification: yes
+
+X-Thread-ID: review
+
+In-Reply-To: <finctx-e08.email.id@contoso.example>
+
+References: <finctx-e07.teams.id@contoso.example> <finctx-e08.email.id@contoso.example>
+
+MIME-Version: 1.0
+
+Content-Type: multipart/alternative; boundary="fictional-id-finctx-e11-alternative"
+
+
+
+----- BODY TEXT / ISI TEKS -----
+
+KASUS PELATIHAN SINTETIS ASLI. Semua orang, komunikasi, angka, dan persetujuan bersifat fiktif. Dibuat secara lokal, tidak dikirim, diimpor, atau diambil dari Microsoft 365. Bukan catatan operasi perusahaan.
+
+ID sumber: FINCTX-E11. Balasan klarifikasi fiktif tambahan untuk latihan pengarahan ini, bukan cuplikan FINCTX asli. Tidak ada persetujuan baru.
+
+Balasan fiktif atas FINCTX-E08.
+
+Dikonfirmasi untuk penelaahan, Maya. Awali dengan hal yang disetujui pada sumber dan hal yang masih menunggu penelaahan, lalu gunakan urutan dalam FINCTX-E08. Pertahankan lima klaim yang diuji dalam FINCTX-E07 beserta bukti yang mendukung atau menantang masing-masing. Tindak lanjut dalam FINCTX-M01 tetap berupa permintaan rekonsiliasi, bukti operasi dan proyek, serta pengujian kas, bukan persetujuan. Jika bukti belum lengkap pada saat pembekuan, tampilkan kesenjangan dan pemiliknya secara jelas, bukan menyimpulkan hasil yang menguntungkan. Pengarahan harus membedakan klaim sebelum penelaahan yang dipertahankan dari perhitungan yang diperiksa independen. Ini hanya konfirmasi agenda; tidak memberikan persetujuan awal atas hasil rapat atau mengotorisasi treasury bertindak.
+
+----- END EMAIL FINCTX-E11 -----
