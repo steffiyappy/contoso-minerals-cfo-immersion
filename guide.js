@@ -5,8 +5,8 @@ const labels = {
     skip: "Langsung ke panduan", theme: "Tema", lock: "Kunci",
     eyebrow: "OPERASI / KEUANGAN / MANAJEMEN / HR",
     gateTitle: "Enam alur kerja. Dari briefing sampai jawaban kebijakan.",
-    gateLead: "Briefing dokumen dan email EML, perbandingan eksternal Researcher, analisis lima workbook, Cowork dengan empat laporan dan Browser Use, prompt Excel gabungan/terpisah, serta HR Agent Builder.",
-    edition: "Edisi lengkap · EML + riset eksternal + analisis mendalam",
+    gateLead: "Briefing Microsoft 365 berbasis kata kunci tanpa lampiran, perbandingan eksternal Researcher, analisis lima workbook, Cowork, prompt Excel gabungan/terpisah, serta HR Agent Builder.",
+    edition: "Edisi lengkap · briefing kata kunci · 11 September 2026",
     journey1: "Pahami konteks", journey2: "Telusuri angka", journey3: "Siapkan tindakan",
     unlockTitle: "Buka panduan praktik", unlockLead: "Prompt lengkap dalam bahasa Indonesia dan English, dengan file sumber dan langkah yang sesuai.",
     password: "Password sesi", unlock: "Buka panduan", unlocking: "Membuka panduan...",
@@ -45,7 +45,7 @@ const labels = {
     permissions: "Periksa akses Copilot Chat, Researcher, Analyst, Cowork, Copilot di Excel dan Agent Builder sebelum sesi. Pilih mode Researcher melalui UI, bukan prompt. Siapkan Browser Use pada lingkungan yang diizinkan admin.",
     noSend: "Seluruh perusahaan, orang, angka, dan komunikasi pada file contoh adalah fiktif. Alur berhenti pada draf untuk ditinjau manusia.",
     fabricTime: "45-60 menit + data agent opsional",
-    filesNote: "Briefing memakai paket Daily_Briefing dengan delapan EML per bahasa; padanan TXT disediakan bila EML/ICS tidak dapat dibaca. Analyst memakai 12 dan 17-20. Researcher dan Finance memakai 10-13. HR memakai 14. Sumber lama 01-09 adalah latihan terpisah, bukan data tambahan untuk rilis saat ini.",
+    filesNote: "Daily Briefing mencari data kerja Microsoft 365 berdasarkan kata kunci, tanpa lampiran. Paket EML hanya bahan persiapan penyaji; belum diimpor ke Microsoft 365. Analyst memakai 12 dan 17-20; Researcher/Finance memakai 10-13; HR memakai 14. Sumber lama 01-09 adalah latihan terpisah.",
     agenda: "Alokasi 90 menit", clock: "Menit", activity: "Demo", prompts: "Prompt",
     welcome: "Pembukaan dan konteks", qa: "Tanya jawab", total: "Total",
     takeHomeTitle: "Simpan untuk setelah sesi.",
@@ -60,8 +60,8 @@ const labels = {
     skip: "Skip to guide", theme: "Theme", lock: "Lock",
     eyebrow: "OPERATIONS / FINANCE / MANAGEMENT / HR",
     gateTitle: "Six workflows. From morning briefing to policy answers.",
-    gateLead: "Document and EML briefing, external Researcher comparisons, five-workbook analysis, Cowork with four reports and Browser Use, combined/separate Excel prompts, and HR Agent Builder.",
-    edition: "Complete edition · EML + external research + deeper analysis",
+    gateLead: "Keyword-based Microsoft 365 briefing without attachments, external Researcher comparisons, five-workbook analysis, Cowork, combined/separate Excel prompts, and HR Agent Builder.",
+    edition: "Complete edition · keyword briefing · 11 September 2026",
     journey1: "Understand context", journey2: "Trace the numbers", journey3: "Prepare action",
     unlockTitle: "Open the hands-on guide", unlockLead: "Complete Indonesian and English prompts, matched source files and practical steps.",
     password: "Session password", unlock: "Open guide", unlocking: "Opening guide...",
@@ -100,7 +100,7 @@ const labels = {
     permissions: "Confirm Copilot Chat, Researcher, Analyst, Cowork, Copilot in Excel and Agent Builder access before the session. Choose Researcher modes in the UI, not the prompt. Prepare Browser Use in your admin-enabled environment.",
     noSend: "Every company, person, amount and communication in the sample files is fictional. The workflow stops at a draft for human review.",
     fabricTime: "45-60 minutes + optional data agent",
-    filesNote: "Briefing uses Daily_Briefing with eight EMLs per language; TXT equivalents are included if EML/ICS cannot be read. Analyst uses 12 and 17-20. Researcher and Finance use 10-13. HR uses 14. Earlier 01-09 sources are a separate exercise, not additional rows for the current release.",
+    filesNote: "Daily Briefing searches Microsoft 365 work data by keyword, without attachments. The EML package is presenter preparation only; it has not been imported into Microsoft 365. Analyst uses 12 and 17-20; Researcher/Finance use 10-13; HR uses 14. Earlier 01-09 sources are a separate exercise.",
     agenda: "Your 90-minute schedule", clock: "Minutes", activity: "Demo", prompts: "Prompts",
     welcome: "Opening and context", qa: "Q&A", total: "Total",
     takeHomeTitle: "Keep these for after the session.",
@@ -306,6 +306,15 @@ function renderSection(section, main) {
     main.append(setup);
   }
   section.cards.forEach(card => main.append(taskCard(card)));
+  if (section.presenterDownloads?.length) {
+    const details = node("details", undefined, "notes");
+    details.append(node("summary", local(section.presenterTitle)));
+    const grid = node("div", undefined, "download-grid");
+    section.presenterDownloads.filter(file => !file.language || file.language === language)
+      .forEach(file => grid.append(tile(local(file.title), local(file.detail), file.href)));
+    details.append(grid);
+    main.append(details);
+  }
   if (section.success[language]?.length) {
     const success = node("section", undefined, "success");
     success.append(node("h2", text("success")), list(section.success[language]));
